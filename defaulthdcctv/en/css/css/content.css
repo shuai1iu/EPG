@@ -1,0 +1,301 @@
+.logo{
+	position:absolute;
+	top:25px;
+	left:50px;
+	font-size:36px;
+	width: 146px;
+}
+.date{ position:absolute; top:38px; right:50px}
+.title2{ padding-left:30px}
+
+/*menu*/
+.menu,.menu2,.menu3{ position:absolute; top:90px; left:0; font-size:32px; width:335px}
+.menu div{ position:absolute; top:0; left:0}
+.menu div.on,.menu2 div.on{ background:url(../images/menu_bgfocuson.png) no-repeat}
+.menu3 div.on{ background:url(../images/menu_bgfocuson2.png) no-repeat}
+.menu div.current,.menu2 div.current{ background:url(../images/menu_bgon.png) no-repeat}
+.menu3 div.current{ background:url(../images/menu_bgon2.png) no-repeat}
+.menuli{ width:300px; height:54px; line-height:54px; position:relative; padding-left:170px}
+.menuli img{ position:absolute; padding-right:40px; position:absolute; top:0; left:70px} 
+.menu2 .menuli{ width:238px!important; padding-left:92px!important}
+.menu3 .menuli{ width:330px!important; padding-left:0!important}
+.menu3 .menuli div{ position:absolute; left:40px}
+
+/*mid*/
+.mid_ad,.mid_adon{ position:absolute; top:78px; left:335px; width:565px; height:439px}
+.mid_ad img,.mid_adon img{ position:absolute; top:27px; left:29px}
+	.mid_ad{ background:url(../images/pic_bg1.png)}
+	.mid_adon{ background:url(../images/pic_bg1on.png)}
+	
+.mid_nav{ position:absolute; top:520px; left:348px; width:536px}
+.mid_nav div{ width:119px; height:39px; line-height:40px; padding-left:15px; font-size:26px; overflow:hidden; position:absolute; top:0; left:0}
+.mid_nav div.on{ background:url(../images/nav_bgon.png) no-repeat}
+	.nav_line{ position:absolute; bottom:71px; left:335px}
+	
+	
+.mid_sub{ position:absolute; top:90px; left:335px; width:320px; text-align:center}
+.mid_sub div.sub{ height:42px; line-height:40px}
+.mid_sub div.on{ background:url(../images/sub_bgfocuson.png) no-repeat}
+.mid_sub div.current{ background:url(../images/sub_bgon.png) no-repeat}
+	.pages{ position:absolute; top:621px; left:656px}
+	.pages2{ position:absolute; top:630px; left:1180px}
+	.pages3{ position:absolute; top:624px; left:1100px}
+	.pages4{ position:absolute; top:371px; right:36px}
+	.pages5{ position:absolute; top:630px; left:156px}
+
+/*r_ad*/
+.r_ad{ position:absolute; top:78px; left:912px}
+.r_ad div{ width:332px; height:162px; position:absolute; top:0; left:0}
+.r_ad div.on{ background:url(../images/pic_bg2.png) no-repeat; z-index:2}
+.r_ad div img{ position:absolute; top:11px; left:14px}
+
+.r_ad2{ position:absolute; top:106px; left:750px}
+.r_ad2 div{ width:440px; height:184px; position:absolute; top:0; left:0}
+.r_ad2 div.on{ background:url(../images/pic_bg3.png) no-repeat}
+.r_ad2 div img{ position:absolute; top:13px; left:13px}
+
+
+/*dibbling*/
+.dibb,.dibb2,.dibb3,.dibb4{ position:absolute; left:332px; width:910px}
+	.dibb{ top:90px}
+		.dibb .arrow{ position:absolute; top:0; left:430px}
+		.dibb .arrow2{ position:absolute; top:0; left:400px}
+	.dibb2{ top:390px}
+		.dibb2 .arrow{ position:absolute; top:30px; left:440px}
+		.dibb2 .arrow2{ position:absolute; top:30px; left:320px}
+	.dibb3{ top:420px}
+	.dibb4{ top:380px}
+	
+
+	/*film*/
+	.film_list{ position:absolute; top:30px; left:0}
+	.film_list div{ width:182px; height:250px; position:absolute; top:0; left:0; visibility:visible}
+	.film_list div.on{ background:url(../images/pic_bg4.png) no-repeat; visibility:visible}	
+	.film_list div img{ position:absolute; top:13px; left:12px}
+	.film_list2{ position:absolute; top:30px; left:0}
+	.film_list2 div{ width:151px; height:208px; position:absolute; top:0; left:0}
+	.film_list2 div.on{ background:url(../images/pic_bg7.png) no-repeat}	
+	.film_list2 div img{ position:absolute; top:10px; left:9px}
+	.film_list3{ position:absolute; top:30px; left:0}
+	.film_list3 div{ width:227px; height:207px; position:absolute; top:0; left:0}
+	.film_list3 div.on{ background:url(../images/pic_bg8.png) no-repeat}	
+	.film_list3 div img{ position:absolute; top:10px; left:10px}	
+	.film_list4{ position:absolute; top:445px; left:302px; width:937px}
+	.film_list4 div{ float:left; width:250px; height:70px; line-height:46px; padding-left:30px}
+	.film_list4 div.on,.search .on{ background:url(../images/sub_bg3on.png) no-repeat}
+	
+	/*recreation*/
+	.rec_list{ position:absolute; top:25px; left:0; width:890px; height:520px}
+	.rec_list div.bg,.rec_list div.bgon{ width:295px; height:255px;position:absolute; top:0; left:0}
+		.rec_list div.bg{ background:url(../images/pic_bg5.png) no-repeat; visibility:visible}	
+		.rec_list div.bgon{ background:url(../images/pic_bg5on.png) no-repeat; visibility:visible}
+	.rec_list div img{ position:absolute; top:11px; left:19px; width:259px; height:165px}
+	.rec_list div.f{ position:absolute; top:194px; left:19px; width:259px; text-align:center}
+	
+	
+/*program*/	
+.tv_choose_pic{ position:absolute; top:0; left:0; background:url(../images/pic_bg6.png) no-repeat; width:205px; height:275px}
+.tv_choose_intro{ position:absolute; top:0; left:230px; width:675px; font-size:24px; line-height:36px}
+.tv_choose_intro img{ padding:15px 0}
+.tv_choose_input{ position:absolute; top:300px; left:0; width:205px}
+	.tv_choose_input .inp_bg,.tv_choose_input .inp_bgon{ padding:9px; width:138px; height:42px; line-height:42px; position:absolute; left:30px; top:40px}
+	.tv_choose_input .inp_bg div,.tv_choose_input .inp_bgon div{ width:138px; height:40px; line-height:40px; border:0; font-size:30px; font-weight:bold}
+	.tv_choose_input .inp_bg{ background:url(../images/inp_bg.png) no-repeat}
+	.tv_choose_input .inp_bgon{ background:url(../images/inp_bgon.png) no-repeat}
+	
+.tv_choose_episode{ position:absolute; width:920px; height:155px; top:60px; left:0}
+.tv_choose_episode div{ float:left; width:75px; height:50px; line-height:37px; text-align:center}
+.tv_choose_episode div.on{ background:url(../images/tv_choose_bgon.png) no-repeat}
+.tv_rpic{ position:absolute; top:0; right:0}
+
+.choose_list{ position:absolute; top:90px; left:332px; width:590px}
+.choose_list div.on marquee { width:550px; padding:0; margin:0}
+.choose_list div.ch_li{ height:45px; line-height:40px; padding-left:40px}
+.choose_list div.on{ background:url(../images/list_bgon.png) no-repeat}
+
+.side_r{ position:absolute; right:50px; top:90px; width:259px; font-size:24px; line-height:36px}
+.side_r div img{ padding-bottom:15px}
+
+
+
+/*channel*/
+.channel_sub,.channel_sub2{ position:absolute; top:90px; left:345px; width:350px}
+.channel_sub div.sub,.channel_sub2 div.sub{ height:46px; line-height:40px; padding-left:40px}
+.channel_sub div.on,.channel_sub2 div.on{ background:url(../images/channel_subon.png) no-repeat}
+.channel_sub div.current,.channel_sub2 div.current{ background:url(../images/sub_bgon.png) no-repeat}
+	.channel_sub2{ top:120px!important; left:780px!important}
+
+.channel_list{ position:absolute; top:91px; left:710px; line-height:46px}
+	.ch1{ left:580px!important}
+	.ch2{ top:122px!important; left:1120px!important}
+	.ch3{ top:119px!important; left:1120px!important}
+.channel_list div.pad{ margin:13px 0}
+.channel_list div.p_li{ height:46px; line-height:40px; padding-left:30px}
+.channel_list div.sp_li{ height:46px; line-height:40px; padding-left:30px; width:300px;}
+.channel_list div.on{ background:url(../images/list_bg2on.png) no-repeat}
+.channel_list div.on2{ background:url(../images/list_bg3on.png) no-repeat}
+.channel_list div.on3{ background:url(../images/list_bg4on.png) no-repeat}
+	.channel_up{ position:absolute; top:139px; right:56px}
+	.channel_down{ position:absolute; top:616px; right:59px}
+	.channel_up2{ position:absolute; top:90px; right:496px}
+	.channel_down2{ position:absolute; top:620px; right:496px}
+	
+.channel_msg{ position:absolute; top:0; left:846px; background:url(../images/channel_OSD_rbg.png) repeat-y; width:355px; height:720px; padding-left:80px; line-height:46px}
+.channel_msg div.title{ font-size:36px; padding:60px 0 10px 50px}
+.channel_msg div.mar{ padding-left:50px}
+	
+.channel_choose{ position:absolute; top:0; left:0; background:url(../images/channel_OSD_lbg.png) repeat-y; width:405px; height:690px; padding:30px 30px 0 0}
+.channel_choose div.sub{ height:46px; line-height:46px; padding-left:75px}
+.channel_choose div.on{ background:url(../images/channel_sub2on.png) no-repeat}
+
+
+/*control_panel*/
+.control_load{ position:absolute; top:25px; right:35px}
+.control_panel{ position:absolute; top:483px; background:url(../images/control_bbg.png) repeat-x; width:1280px; height:237px; z-index:7}
+.control_panel .playing_time{ position:absolute; top:45px; left:565px; width:150px; text-align:center}
+.control_panel .fasttime{ position:absolute; top:45px; right:115px}
+.control_panel .time1{ position:absolute; top:120px; left:40px; width:130px; text-align:right}
+.control_panel .time2{ position:absolute; top:120px; right:40px; width:130px}
+.control_panel .time11{ position:absolute; top:69px; left:40px; width:130px; text-align:right}
+.control_panel .time22{ position:absolute; top:69px; right:40px; width:130px}
+.control_panel .progressbar{ position:absolute; top:137px; left:170px}
+.control_panel .progressbar2{ position:absolute;top:80px; left:190px}
+.control_panel .bar{ position:absolute; top:128px; left:190px}
+.control_panel .bar2{ position:absolute; top:70px; left:190px; background:url(../images/progressbar.png) right no-repeat; height:32px; padding-right:12px}
+
+.control_panel2{ position:absolute; top:618px; background:url(../images/control_bbg2.png) repeat-x; width:1280px; height:102px; z-index:8}
+	.enter_time{ position:absolute; top:32px; left:140px; width:550px; line-height:50px}
+	.enter_time div{ position:absolute; top:0; left:0}
+	.enter_time input{ background-color:#646464; border:solid 1px #000; color:#FFFFFF; font-family:""; font-size:36px; width:90px; height:48px; line-height:48px}
+	.enter_time div.e1{ left:210px}
+	.enter_time div.e2{ left:320px}
+	.enter_time div.e3{ left:370px}
+	.enter_time div.e4{ left:480px}
+
+
+/*playback*/
+.playback_date{ position:absolute; top:90px; left:332px; width:215px}
+.playback_date div.d_li{ height:45px; line-height:42px; padding-left:55px}
+.playback_date div.d_li2{ height:45px; line-height:42px; text-align:center}
+.playback_date div.on{ background:url(../images/sub_bg2focuson.png) no-repeat}
+.playback_date div.current{ background:url(../images/sub_bg2on.png) no-repeat}
+	.pb1{ top:120px!important}
+.tv_msg{ position:absolute; top:45px; left:90px; width:1100px; line-height:38px}
+.tv_msg div img{ padding:10px 0}
+
+
+
+/*application*/
+.app_list{ position:absolute; top:30px; left:0}
+	.app_list div.bg,.app_list div.bgon{ width:280px; height:250px;position:absolute; top:0; left:0}
+		.app_list div.bg{ background:url(../images/pic_bg9.png) no-repeat}	
+		.app_list div.bgon{ background:url(../images/pic_bg9on.png) no-repeat}
+	.app_list div img{ position:absolute; top:16px; left:17px; width:244px; height:155px}
+	.app_list div.f{ position:absolute; top:194px; left:30px; width:210px; font-size:24px}
+
+
+
+/*package*/
+.package_list,.package_list2{ position:absolute; top:30px; left:0}
+	.package_list div.bg,.package_list div.bgon,.package_list2 div.bg,.package_list2 div.bgon{ width:885px; height:168px; position:absolute; top:0; left:0}
+		.package_list div.bg{ background:url(../images/pic_bg10.png) no-repeat}	
+		.package_list div.bgon{ background:url(../images/pic_bg10on.png) no-repeat}
+		.package_list2 div.bg{ background:url(../images/pic_bg11.png) no-repeat}	
+		.package_list2 div.bgon{ background:url(../images/pic_bg11on.png) no-repeat}
+	.package_list div img{ position:absolute; top:9px; left:13px; width:690px; height:148px}
+	.package_list div.f{ position:absolute; top:64px; right:20px; width:155px; font-size:36px; text-align:center}
+	.package_list2 div img{ position:absolute; top:9px; left:13px; width:200px; height:148px}
+	.package_list2 div.pic img{ position:absolute; top:9px; left:13px; width:856px; height:148px}
+	.package_list2 div.f{ position:absolute; top:30px; left:240px; width:610px; font-size:30px; font-weight:bold}
+	.package_list2 div.f2{ position:absolute; top:80px; left:240px; width:610px; font-size:20px; line-height:30px}
+	
+
+.package_intro{ position:absolute; top:200px; left:245px; width:600px; line-height:52px}
+.package_intro .con{ text-indent:2em}
+
+.package_nav{ position:absolute; top:95px; right:0; width:325px}
+.package_nav div.nav{ height:61px; line-height:61px; font-size:36px; text-align:center; padding-left:25px}
+.package_nav div.on{ background:url(../images/package_nav_bgon.png) no-repeat}
+
+.order_agree{ position:absolute; top:50px; left:155px; width:965px; line-height:52px}
+.order_agree .tit{ text-align:center; font-size:36px; padding-bottom:10px}
+.order_agree .con{ text-indent:2em}
+
+
+.btn_up,.btn_down{ position:absolute; right:55px; width:40px; height:150px; text-align:center; padding-top:30px}
+	.btn_up{ top:90px}
+	.btn_down{ bottom:60px}
+.btn_bgon{ background:url(../images/pages_bgon.png) no-repeat}
+
+
+/*search*/
+.search{ position:absolute; top:160px; left:400px; font-size:36px; width:700px}
+.search input{ width:415px; height:46px; line-height:46px; border:solid 1px #5F5E63; font-size:36px; font-family:"黑体"}
+.search div{ position:absolute; top:0; left:0}
+.search .s1{ position:absolute; top:18px; left:450px}
+.search .s2{ position:absolute; top:6px; left:500px; width:105px; height:42px; line-height:42px; text-align:center}
+
+.search_letter{ position:absolute; top:255px; left:365px; width:750px}
+.search_letter div{ float:left; width:105px; height:80px; line-height:42px; text-align:center; font-size:42px}
+.search_letter div.on,.search .on{ background:url(../images/search_letter_bgon.png) no-repeat}
+.search_result{ position:absolute; top:90px; left:342px; width:860px}
+.search_result div.r_li{ height:42px; line-height:40px; padding-left:30px}
+.search_result div.on{ background:url(../images/search_list_bgon.png) no-repeat}
+
+
+
+/*news*/
+.news_list{ position:absolute; top:30px; left:0}
+	.news_list .kind{ width:293px; height:255px; position:absolute; top:0; left:0}
+	.news_list div.bg,.news_list div.bgon{ width:290px; height:220px}
+	.news_list div.bgon{ background:url(../images/pic_bg12on.png) no-repeat}		
+	.news_list div img{ position:absolute; top:12px; left:16px; width:259px; height:194px}	
+	.news_list div.f{ position:absolute; top:220px; left:16px; width:259px; font-size:30px; text-align:center}
+
+.news_pic{ width:244px; position:absolute; top:90px; left:332px}
+.news_pic div.bg,.news_pic div.bgon{ width:244px; height:195px; position:absolute; top:0; left:0}
+.news_pic div.bgon{ background:url(../images/pic_bg13on.png) no-repeat}
+.news_pic div img{ position:absolute; top:11px; left:9px}
+
+.newsbigpic{ position:absolute; top:90px; left:30px; width:496px}
+.newsbigpic div{ position:relative; width:496px; height:563px}
+.newsbigpic div img{ position:absolute; top:13px; left:12px}
+.newsbigpic div.bgon{ background:url(../images/pic_bg14on.png) no-repeat}
+
+
+/*bottom*/
+.notice{ position:absolute; top:660px; left:40px; width:1200px; height:60px; line-height:60px; overflow:hidden}/*white-space:nowrap;*/
+.bottom{ position:absolute; top:568px; left:0; background:url(../images/bottombg.png) repeat-x; width:1280px; height:152px}
+.bottom_ad{ position:absolute; top:30px; left:72px}
+
+
+/*popup*/
+.popup,.popup2{ position:absolute; top:170px; left:290px; width:700px; height:380px; z-index:9}
+	.popup{ background:url(../images/popup_bg.png) no-repeat}
+	.popup2{ background:url(../images/popup_bg2.png) no-repeat}
+.pop_fee,.pop_tip,.pop_price,.pop_buy{ position:absolute; left:80px; width:545px; text-align:center; line-height:46px}
+	.pop_fee{ top:60px}
+	.pop_tip{ top:170px}
+	.pop_price{ top:120px}
+	.pop_buy{ top:90px}
+.pop_btns{ position:absolute; top:221px; left:120px; width:500px}
+	.po1,.po2{ left:270px!important; width:160px!important}
+	.po1{top:290px!important}
+	.po2,.po3{top:250px!important}
+	.po4{top:180px!important}
+.pop_btns div,.btns div{ float:left; width:151px; height:39px; line-height:39px; text-align:center}
+.pop_btns div.on,.btns div.on{ background:url(../images/btn_bg.png) no-repeat}
+	.btns{ position:absolute; top:40px; right:90px}
+	.btns2{ position:absolute; top:630px; left:290px; width:750px}
+	.btns2 div{ float:left; text-align:center; width:350px; height:40px; line-height:40px}
+	.btns2 div.on{ background:url(../images/channel_subon.png) no-repeat}
+		.b2_po{ left:180px!important; width:350px!important}
+		
+	.btns3{ padding:35px 0;}
+	.btns3 div{ float:left; text-align:center; width:214px; height:46px; line-height:46px}
+	.btns3 div.on{ background:url(../images/sub_bg3on.png) no-repeat}	
+	
+.disno{ display:none}
+	
+	
+	

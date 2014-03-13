@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	position:absolute;
+	width:640px;
+	height:530px; 
+	background:url(../images/background.png);
+	background-repeat:no-repeat;
+	margin:0;
+	padding:0;
+	}
+#header{
+	position:absolute;
+	width:633px;
+	height:68px;
+	margin:0;
+	padding:0;
+	}	
+.button{
+	position:absolute;
+	border:0px;
+    position:absolute;
+	width:148px; 
+	height:142px; 
+	left:13px;
+	top:17px; 
+	background: url(../images/film_box.png);
+	background-repeat:no-repeat;
+	}
+.tv{
+	position:absolute;
+	width:331px;
+	height:279px;
+	left:227px;
+	top:71px;
+	background: url(../images/tv_bg.png);
+	background-repeat:no-repeat;
+	}
+.tv_btn{
+	position:absolute;
+	width:290px;
+	height:206px;
+	left:15px;
+	top:30px;
+	border:0px;
+	background:url(../images/tv_se.png);
+	background-repeat:no-repeat;
+	}
+.tv_images{
+	position: absolute;
+	width:281px;
+	height:197px;
+	left:5px;
+	top:5px;
+	}	
+.guidance{
+	position:absolute;
+	width:471px;
+	height:168px;
+	left:157px;
+	top:354px;
+	}	
+.images{
+	position:absolute;
+	width:133px;
+	height:127px;
+	left:5px;
+	top:4px;
+	}
+.images_sel{
+	position:absolute;
+	background:url(images/film_sel.png);
+    width:141px;
+    height:136px;
+    left:0px;
+    top:0px;
+	background-repeat:no-repeat;
+	}
+.filmlabel{
+	color:#FFF;
+	font-family:"黑体";
+	font-size:18px;
+	padding-top:2px;
+	position:absolute;
+	width:133px;
+	height:20px;
+	top:127px;
+	text-align:center;
+	background:url(../images/title_bg.png);
+	background-repeat:no-repeat;
+	overflow:hidden;
+   }

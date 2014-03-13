@@ -1,0 +1,70 @@
+/* =S Css Reset
+----------------------------------------------- */
+body, div, h1, h2, h3, h4, h5, h6, button, input, textarea, th, td { margin:0px; padding:0px; }
+body, div, button, input, select, textarea { font-size: 20px; font-family: SimHei,sans-serif; line-height: 100%; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+a { text-decoration: none; }
+fieldset, img { border: 0px; }
+button, input, select, textarea { font-size:100%; }
+
+
+/* =S Global
+----------------------------------------------- */
+.item, .link, .txt-wrap, .txt, .btn, .icon, .pic, .pic-shade, .num, .win { position:absolute;}
+.link { left: 0px; top: 0px; z-index:9;}
+.txt { left: 0px; z-index:7;}
+.txt-wrap { z-index:6;}
+.icon { z-index:5;}
+.pic-shade { z-index:4;}
+.pic { z-index:3;}
+.btn { text-align: center;}
+
+body, .wrapper {
+	color: #f1f1f1;
+    height: 530px;
+    width: 640px;
+    /*background: transparent;*/
+    overflow: hidden;
+    position: relative;
+}
+.wrapper { z-index:2;}
+.pagebg {
+	left: 0px;
+	position:absolute;
+	top:0;
+	z-index:1;
+}
+.menu {
+	left:275px;
+	position:absolute;
+	top:10px;
+}
+.menu1 {
+        left:10px;
+        position:absolute;
+        top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

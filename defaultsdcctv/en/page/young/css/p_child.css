@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	position:absolute;
+	width:640px;
+	height:530px; 
+	background: url(../images/secondarybar_bg.jpg) no-repeat;
+	margin:0;
+	padding:0;
+	}
+.title{
+	position:absolute;
+	width:121px;
+	height:35px; 
+	left:26px; 
+	top:18px;
+	background: url(../images/Kiss_classroom_title.png) no-repeat;
+	}	
+.content{
+	position:absolute; 
+	width:586px;
+	height:363px;
+	left:30px;
+	top:76px;
+	}
+.filmbg_above{
+	position:absolute;
+	width:192px;
+	height:176px;
+	top:0px;
+	border:0px;
+	background: url(../images/p_child_paperbg.png)no-repeat;
+	}
+.filmbg_below{
+	position:absolute;
+	width:192px;
+	height:176px;
+	top:178px;
+	border:0px;
+	background: url(../images/p_child_paperbg.png)no-repeat;
+	}
+.filmbg_btn{
+	position:absolute;
+	width:175px;
+	height:158px;
+	left:6px;
+	top:4px;
+	border:0;
+	background:url(../images/box_se.png);
+	background-repeat:no-repeat;
+	}	
+.image{
+	position:absolute;
+	width:170px;
+	height:152px;
+	left:9px;
+	top:7px;
+	}	
+.btn_page_up{
+	position:absolute;
+	width:58px;
+	height:33px;
+	border:0px;
+	font-family: '微软雅黑';
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	left:251px;
+	padding-top:7px;
+	top:28px;
+	background:url(../images/pagebtn.png);
+	background-repeat:no-repeat;
+	color:#8e8e8e;
+	}
+.btn_page_down{
+	position:absolute;
+	width:58px;
+	height:33px;
+	border:0px;
+	font-family: '微软雅黑';
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	left:328px;
+	top:28px;
+	padding-top:7px;
+	background:url(../images/pagebtn.png);
+	background-repeat:no-repeat;
+    color:#8e8e8e;
+	}
+.button{
+    position:absolute; 
+	width:113px; 
+	height:65px; 
+	left:25px; 
+	top:440px; 
+	border:0px;
+	background:url(../images/ha_index.png);
+	background-repeat:no-repeat;
+	}
+.label{
+	position:absolute;
+	width:170px;
+	height:30px;
+	text-align:center;
+	font-family:'微软雅黑';
+	font-size:18px;
+	color:#fff;
+	left:9px;
+	top:123px;
+	padding-top:6px;
+	background:url(../images/title2_bg.png);
+	background-repeat:no-repeat;
+	}
+.page_num{
+    position:absolute; 
+	width:30px;
+	height:22px;
+	left:586px;
+	top:443px; 
+	font-family: Arial;
+	font-size:19px; 
+	color:#b76211;
+
+	}

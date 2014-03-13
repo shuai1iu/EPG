@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>亲子课堂</title>
+<link rel="stylesheet" href="css/Level3.css" type="text/css" />
+<script src="JS/hryy.js"></script>
+<script src="JS/all.js"></script>
+<script language="javascript"  type="text/javascript">
+var col=3;
+var row=2;
+function gotoup()
+{
+		window.location.href="qzkt_info.html";
+}
+function gotodown()
+{
+	window.location.href="qzkt_info3.html";
+}
+function buttonchange(id)
+{
+	buttonback();
+	switch(id)
+	{
+		
+		case "big_image":
+		document.getElementById("big_image").style.background="url('images/cheng_sel.png')";
+		break;
+		case "song_1":
+		document.getElementById("song_1").style.background="url('images/list_sel.png')";
+		break;
+		case "song_2":
+		document.getElementById("song_2").style.background="url('images/list_sel.png')";
+		break;
+		case "song_3":
+		document.getElementById("song_3").style.background="url('images/list_sel.png')";
+		break;
+		case "song_4":
+		document.getElementById("song_4").style.background="url('images/list_sel.png')";
+		break;
+		case "song_5":
+		document.getElementById("song_5").style.background="url('images/list_sel.png')";
+		break;
+		case "song_6":
+		document.getElementById("song_6").style.background="url('images/list_sel.png')";
+		break;
+		case "song_7":
+		document.getElementById("song_7").style.background="url('images/list_sel.png')";
+		break;
+		case "song_8":
+		document.getElementById("song_8").style.background="url('images/list_sel.png')";
+		break;
+		case "index":
+		document.getElementById("index").style.background="url('images/ha_index_sel.png')";
+		break;
+		case "page_u":
+		document.getElementById("page_u").style.background="url('images/pagebtn_sel.png')";
+		break;
+		case "page_d":
+		document.getElementById("page_d").style.background="url('images/pagebtn_sel.png')";
+		break;
+		
+	}
+//	alert(col+"  "+row);
+}
+function gotowhat()
+{
+	switch(col)
+		{
+			case 1:
+			switch(row)
+			{
+				case 3:
+				window.location.href="index.html";
+				break;
+			}
+			break;
+			case 2:
+			switch(row)
+			{
+			case 2:
+			window.location.href="qzkt_info.html";
+			break;
+			}
+			break;
+			case 3:
+			switch(row)
+			{
+				case 1:
+				window.location.href="";
+				break;
+				case 2:
+				window.location.href="qzkt_info3.html";
+				break;
+				
+			}
+			break;
+			case 4:
+			switch(row)
+			{
+				case 1:
+				window.location.href="play_index.html";
+				break;
+				case 2:
+				window.location.href="play_index.html";
+				break;
+				case 3:
+				window.location.href="play_index.html";
+				break;
+				case 4:
+				window.location.href="play_index.html";
+				break;
+				case 5:
+				window.location.href="play_index.html";
+				break;
+				case 6:
+				window.location.href="play_index.html";
+				break;
+				case 7:
+				window.location.href="play_index.html";
+				break;
+				case 8:
+				window.location.href="play_index.html";
+				break;
+				
+			}
+			
+			
+		}
+}
+
+</script>
+</head>
+<body onload="init()">
+<div class="title"></div>
+<div class="content">
+<div class="page_bg">
+<div class="filmbg_btn" id="big_image"></div>
+<img src="images/level3_posters.jpg" class="image"/>
+</div>
+<div class="list">
+<div class="btn_list">
+<div class="btn_list" id="song_1"></div>
+<div class="span">成长在线2012年7月第一期</div>
+</div>
+<div class="btn_list" style="top:40px;">
+<div class="btn_list" id="song_2"></div>
+<div class="span">成长在线2012年7月第二期</div>
+</div>
+<div class="btn_list" style="top:80px;">
+<div class="btn_list" id="song_3"></div>
+<div class="span">成长在线2012年7月第三期</div>
+</div>
+<div class="btn_list" style="top:120px;">
+<div class="btn_list" id="song_4"></div>
+<div class="span">成长在线2012年7月第一期</div>
+</div>
+<div class="btn_list" style="top:160px;">
+<div class="btn_list" id="song_5"></div>
+<div class="span" >成长在线2012年7月第二期</div>
+</div>
+<div class="btn_list" style="top:200px;">
+<div class="btn_list" id="song_6"></div>
+<div class="span">成长在线2012年7月第三期</div>
+</div>
+<div class="btn_list" style="top:240px;">
+<div class="btn_list" id="song_7"></div>
+<div class="span">成长在线2012年7月第一期</div>
+</div>
+<div class="btn_list" style="top:280px;">
+<div class="btn_list" id="song_8"></div>
+<div class="span">成长在线2012年7月第二期</div>
+</div>
+</div>
+</div>
+<div class="button" id="index" type="reset"></div>
+<div  type="reset" id="page_u" class="btn_page_up" >上页</div>
+<div  type="reset" id="page_d" class="btn_page_down" >下页</div>
+<div class="page_num">2/3</div>
+</body>
+</html>

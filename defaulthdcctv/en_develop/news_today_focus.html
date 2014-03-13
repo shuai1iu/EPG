@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>新闻名栏-今日关注_央视高清EPG</title>
+<meta name="page-view-size" content="1280*720" />
+<link type="text/css" href="css/common.css" rel="stylesheet" />
+<link type="text/css" href="css/content.css" rel="stylesheet" />
+</head>
+<script type="text/javascript" src="js/pagecontrol.js"></script>
+<script type="text/javascript">
+        var curpage = 1; //当前页码      
+		var typeid=0;    //栏目id
+		var isfaved = false; //是否已收藏
+		var isfavsucc =0; //用于判断收藏操作是否成功
+		var isbuysucc =0; //用于判断购买操作是否成功
+		var area1;
+        var area0;
+		var area2;
+		var area3;
+		var popup1;
+		var popup2;		
+        //页面加载时候执行
+        window.onload = function() {
+            area0 = AreaCreator(4, 1, new Array(-1, -1, -1, 1), "daohang_", "className:menuli on", "className:menuli");
+            area0.setstaystyle("className:menuli current", 3);
+            area1 = AreaCreator(11, 1, new Array(-1, 0, -1, -1), "content_", "className:ch_li on", "className:ch_li");
+			//两个弹出层
+			popup1=new Popup("divshowsale");
+			popup2=new Popup("divshow");
+            //是否默认选中需要传递参数进行判断
+			
+            pageobj = new PageObj(0,1,new Array(area0,area1),new Array());
+			//参数（区域，选中第几个，区域列表）
+			area0.setdarknessfocus(1); //灰色显示的
+			area1.setpageturnattention("pageup","images/up.png","images/up_gray.png","pagedown","images/down.png","images/down_gray.png");
+            //区域0的确认事件
+            area0.areaOkEvent = function() {
+                switch (this.curindex) {
+					case 0: window.location.href = "program_tv.jsp?id="+typeid; return true; break;  
+                    case 1:	return true; break;
+                    case 2: shoucang();pageobj.popups[1].showme(); return true; break;
+                    case 3: pageobj.popups[0].showme(); return true; break;
+                }
+            }
+			
+            area1.setcrossturnpage();
+            //下一页事件
+            area1.asyngetdata = function(dataurl) {
+                this.lockin = true;
+                $('hidden_frame').src = "datajsp/program_tvpart_choose_data_Ifrom.jsp?pageindex=" + this.curpage + 			"&cateid=" + area0.doms[area0.curindex].dataurlorparam;
+            }
+            //区域1右移事件
+			
+             bindListData(null);
+  			 bindContent(null);
+			 pageobj.backurl = "dibbling_recreation.jsp";
+        }
+
+		//填充列表
+		function bindListData(items){
+			for(var i =0;(items!=undefined&&i<area1.doms.length);i++)
+			{
+				area1.doms[i].updatecontent(items[i].VODNAME);
+				area1.doms[i].mylink = "program_film.jsp?vodid="+items[i].VODID+"&returnurl="+escape(location.href);
+			}
+		}
+		//填充详细信息
+		function bindContent(obj){
+			if(obj!=undefined){
+				$("content_pst").src = obj.PICPATH;
+				$("content_dct").innerHTML = "<b>主持：</b>"+obj.DIRECTOR;
+				$("content_act").innerHTML = "<b>嘉宾：</b>"+obj.ACTOR;
+				$("content_itd").innerHTML = obj.INTRODUCE;
+			}
+		}
+</script>
+
+<body>
+<div class="main">
+	
+	<!--logo-->
+	<div class="logo">今日关注</div>
+	<div class="date" id="currDate">2011年5月30日 | 15:00</div>
+	
+	
+	
+	<!--menu-->
+	<div class="menu2"> <!--焦点为 class="menuli on"  当前选中为 class="menuli current"-->
+		<div><img src="images/menu_line.png" /></div>
+		<div class="menuli" id="daohang_0">节目信息</div> <!--class="menuli on"-->
+		<div><img src="images/menu_line.png" /></div>
+		<div class="menuli current" id="daohang_1">播放选择</div>
+		<div><img src="images/menu_line.png" /></div>
+		<div class="menuli" id="daohang_2">收  &nbsp;&nbsp;  藏</div>    
+		<div><img src="images/menu_line.png" /></div>
+		<div class="menuli" id="daohang_3">购  &nbsp;&nbsp;  买</div>
+		<div><img src="images/menu_line.png" /></div>
+	</div>
+	
+	
+	
+	<!--list-->
+	<div class="choose_list">
+		<div align="center"><img id="pageup" src="#" /></div>
+		<div class="ch_li on" id="content_0">孟买连环爆炸 南亚难逃恐怖阴霾？</div>
+		<div class="ch_li" id="content_1">潜艇“示威” 访华示好 美藏何心思？</div>
+		<div class="ch_li" id="content_2">登战机 说航母 中美握手还是过招？</div>
+		<div class="ch_li" id="content_3">陈马会谈直面敏感 中美两军障碍何解？</div>
+		<div class="ch_li" id="content_4">怀念张国荣</div>
+		<div class="ch_li" id="content_5">陈马会谈直面敏感 中美两军障碍何解？</div>
+		<div class="ch_li" id="content_6">麦霸排位战</div>
+		<div class="ch_li" id="content_7">陈马会谈直面敏感 中美两军障碍何解？</div>
+		<div class="ch_li" id="content_8">2011让我们大声说出爱</div>
+		<div class="ch_li" id="content_9">华语音乐金曲季</div>
+		<div class="ch_li" id="content_10">歌词小强</div>
+		<div align="center"><img id="pagedown" src="#" /></div>
+	</div>
+	<div class="line5"><img src="images/lines5.png" /></div>
+	
+	
+	
+	
+	<!--side_r-->
+	<div class="side_r">
+		<div><img id="content_pst" src="images/temp/today.jpg" /></div>
+		<div id="content_dct"><b>主持：</b>陈木胜</div>
+		<div id="content_act"><b>嘉宾：</b>刘德华</div>
+		<div class="f24b">内容简介：</div>
+		<div id="content_itd">“月亮公主”孟庭苇将会带着什么样的礼物来到现场？在凌晗、程程、范温柔，或热情，你喜欢哪一种女人呢？</div>
+	</div>
+		
+	
+	
+	<!--bottom_notice-->
+	<div class="notice"><marquee id="buttom_txt">欢迎观看IPTV</marquee></div>
+
+</div>
+
+</body>
+</html>

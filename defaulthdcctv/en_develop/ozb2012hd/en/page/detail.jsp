@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>央视欧洲杯高清3.0</title>
+<meta name="page-view-size" content="1280*720" />
+<link type="text/css" rel="stylesheet" href="../css/content.css" />
+<%@ include file="util/save_focus.jsp"%>
+<%@ include file="util/util_getPosterPaths.jsp"%>
+<%@ include file="datajsp/vod-tv-detail_data.jsp"%>
+<%@ include file="datajsp/codepage.jsp"%>
+<script type="text/javascript" src="../js/pagecontrolx.js"></script>
+<script type="text/javascript" src="../js/EPGConstants.js"></script>
+<script type="text/javascript">
+	var area0,area1,area2
+</script>
+<style type="text/css">
+<!--
+	body{ background:url(../images/bg2.jpg) no-repeat;}
+
+-->
+</style>
+</head>
+
+<body>
+
+<!--head-->
+	<div class="detail-catalog">点播>精彩视频>最新比赛</div>
+	<div class="detail-title">节目详情</div>
+<!--the end-->
+
+
+
+
+<!--介绍-->
+<div class="detail-intro">
+	<div class="con">
+		<div class="txt01">名称: 德国VS意大利</div>
+		<div class="txt01" style="top:56px;">赛事: 2012欧洲杯小组赛</div>
+		<div class="txt02" style="top:145px;">简介: 波兰，乌克兰欧洲杯比赛</div>
+	</div>
+	<div class="btn">   
+		<div class="item">
+			<div class="link"><a href="#"><img src="../images/t.gif" /></a></div>
+			<div class="pic"><img src="../images/btn-favorites.png" /></div>
+		</div>
+	</div>
+	<div class="poster"> 
+		<div class="item"><img src="../images/temp/pic-209X288.jpg" /></div>
+	</div>
+	<div class="num">   
+		<div class="tit">集&nbsp;数</div>
+		<div class="item">
+			<div class="link"><a href="#"><img src="../images/t.gif" /></a></div>
+			<div class="txt">1</div>
+		</div>			
+		<div class="item" style=" left:240px;">
+			<div class="link"><a href="#"><img src="../images/t.gif" /></a></div>
+			<div class="txt">2</div>
+		</div>
+		<div class="item" style=" left:340px;">
+			<div class="link"><a href="#"><img src="../images/t.gif" /></a></div>
+			<div class="txt">3</div>
+		</div>
+		<div class="item" style=" left:440px;">
+			<div class="link"><a href="#"><img src="../images/t.gif" /></a></div>
+			<div class="txt">4</div>
+		</div>
+		<div class="item" style=" left:540px;">
+			<div class="link"><a href="#"><img src="../images/t.gif" /></a></div>
+			<div class="txt">5</div>
+		</div>
+		<div class="item" style=" left:640px;">
+			<div class="link"><a href="#"><img src="../images/t.gif" /></a></div>
+			<div class="txt">6</div>
+		</div>
+		<div class="item" style=" left:740px;">
+			<div class="link"><a href="#"><img src="../images/t.gif" /></a></div>
+			<div class="txt">7</div>
+		</div>
+		<div class="item" style=" left:840px;">
+			<div class="link"><a href="#"><img src="../images/t.gif" /></a></div>
+			<div class="txt">8</div>
+		</div>
+		<div class="item" style=" left:945px;">
+			<div class="link"><a href="#"><img src="../images/t.gif" /></a></div>
+			<div class="txt">9</div>
+		</div>
+	</div>
+</div>
+<!--the end-->
+
+	
+	
+	
+<!--推荐区节目-->
+<div class="detail-recommend">  
+	<div class="item">
+		<div class="link"><a href="#"><img src="../images/t.gif" /></a></div>
+		<div class="pic"><img src="../images/temp/pic-141X194.png" /></div>
+	</div>
+	<div class="item" style="left:200px;">
+		<div class="link"><a href="#"><img src="../images/t.gif" /></a></div>
+		<div class="pic"><img src="../images/temp/pic-141X194.png" /></div>
+	</div>
+	<div class="item" style="left:400px;">
+		<div class="link"><a href="#"><img src="../images/t.gif" /></a></div>
+		<div class="pic"><img src="../images/temp/pic-141X194.png" /></div>	</div>
+	<div class="item" style="left:600px;">
+		<div class="link"><a href="#"><img src="../images/t.gif" /></a></div>
+		<div class="pic"><img src="../images/temp/pic-141X194.png" /></div>
+	</div>
+	<div class="item" style="left:800px;">
+		<div class="link"><a href="#"><img src="../images/t.gif" /></a></div>
+		<div class="pic"><img src="../images/temp/pic-141X194.png" /></div>
+	</div>
+	<div class="item" style="left:1000px;">
+		<div class="link"><a href="#"><img src="../images/t.gif" /></a></div>
+		<div class="pic"><img src="../images/temp/pic-141X194.png" /></div>
+	</div>
+</div>
+<!--the end-->	
+		
+</body>
+</html>

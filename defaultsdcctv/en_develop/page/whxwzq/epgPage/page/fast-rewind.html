@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>快进快退-1-湖北广电标清EPG2.0</title>
+<meta name="page-view-size" content="640*530" />
+<style type="text/css">
+/* =S Css Reset
+----------------------------------------------- */
+body, div, input { margin:0; padding:0;}
+body, div, button, input { font-size:16px; font-family: SimHei,sans-serif; line-height: 100%;}
+a { text-decoration: none;}
+img { border: 0;}
+/* =S Global
+----------------------------------------------- */
+.item, .link, .txt-wrap, .txt, .btn, .icon, .pic, .pic-shade, .num, .win { position:absolute;}
+.link { left: 0; top: 0; z-index:9;}
+.txt { left: 0; z-index:7;}
+.txt-wrap { z-index:6;}
+.icon { z-index:5;}
+.pic-shade { z-index:4;}
+.pic { z-index:3;}
+.btn { text-align: center;}
+body {
+	color: #f1f1f1;
+    height: 530px;
+    width: 640px;
+    /*background: transparent;*/
+    overflow: hidden;
+    position: relative;
+}
+.wrapper,.pagebg {
+	left: 0;
+	position:absolute;
+	top:0;
+}
+.wrapper {
+    height: 530px;
+    width: 640px;
+	z-index:2;
+}
+.pagebg {
+	z-index:1;
+}
+.txt-time {
+	color:#fff;
+	font-size:18px;
+	line-height:28px;
+	width:65px;
+}
+.bottom-a {
+	background:url(../images/play-bottom01.png) no-repeat;
+	left:0;
+	position:absolute;
+	top:450px;
+	height:80px;
+    width:640px;
+	z-index:3;
+}
+.bottom-a .btn-fast {
+	left:16px;
+	position:absolute;
+	top:28px;
+}
+.bottom-a .btn-fast .icon {
+	top:5px;
+}
+.bottom-a .btn-fast .txt {
+	color:#fff;
+	font-size:18px;
+	line-height:28px;
+	left:24px;
+	width:28px;
+}
+.bottom-a .progress-bar {
+	left:125px;
+	position:absolute;
+	top:11px;
+}
+.bottom-a .progress-bar .bar {
+	background:url(../images/progress-bar-bg.png) no-repeat;
+	left:0;
+	position:absolute;
+	top:22px;
+	height:19px;
+    width:445px;
+}
+</style>
+</head>
+
+<body bgcolor="transparent">
+
+<!--pagebg-->
+<div class="pagebg">
+	<div class="pic"><img src="../images/demopic/bg-640X530.jpg" width="640" height="530" /></div>
+</div>
+<!--pagebg the end-->
+
+
+
+<div class="wrapper"></div>	
+
+
+
+<!--pop up layer-->
+<div class="bottom-a">
+	<div class="btn btn-fast">
+		<div class="icon"><img src="../images/icon-fast.png" alt="快进" /></div>
+		<!--<div class="icon"><img src="../images/icon-rewind.png" alt="快退" /></div>-->
+		<div class="txt">2X</div>
+	</div>
+	
+	<div class="txt txt-time" style="left:57px;top:28px; text-align:right;">08:30</div> <!--已播放的时间-->
+	<div class="txt txt-time" style="left:572px; top:28px;">10:30</div> <!--总时间-->
+	
+	<div class="progress-bar">
+		<div class="txt txt-time" style="left:43px;">09:15</div> <!--快进快退的时间-->
+		<div class="bar">
+			<div class="btn" style="left:43px;"><img src="../images/btn-point_focus.png" /></div> <!--获得焦点时；left最大值：430px-->
+			<!--<div class="btn" style="left:43px;"><img src="../images/btn-point.png" /></div>--> <!--left最大值：430px-->
+		</div>
+	</div>
+	
+</div>
+<!--pop up layer the end-->
+
+
+</body>
+</html>

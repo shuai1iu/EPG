@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	position:absolute;
+	width:640px;
+	height:530px;
+	background: url(../images/hryy.png) no-repeat;
+	margin:0;
+	padding:0;
+	}
+.title{
+	position:absolute;
+	width:121px;
+	height:35px; 
+	left:26px; 
+	top:20px;
+	background: url(../images/Flowers_title.png) no-repeat;
+	}	
+.content{
+	position:absolute; 
+	width:590px;
+	height:337px;
+	left:23px;
+	top:71px;
+	}
+.filmbg_above{
+	position:absolute;
+	width:192px;
+	height:176px;
+	top:0px;
+	border:0px;
+	background: url(../images/p_child_paperbg.png)no-repeat;
+	}
+.filmbg_below{
+	position:absolute;
+	width:192px;
+	height:176px;
+	top:178px;
+	border:0px;
+	background: url(../images/p_child_paperbg.png)no-repeat;
+	}
+.image{
+	position:absolute;
+	width:214px;
+	height:182px;
+	left:10px;
+	top:9px;
+	}
+.image_btn{
+	position:absolute;
+	width:324px;
+	height:290px;
+	left:5px;
+	top:8px;
+	border:0px;
+	background: url(../images/hryy_tv.png) no-repeat;
+	}	
+.paper_bg{
+	position:absolute;
+	width:240px;
+	height:211px;
+	background: url(../images/f_music_paperbg.jpg) no-repeat;
+	}
+.psongs_list{
+	position:absolute;
+	width:231px;
+	height:134px;
+	top:211px;
+	}
+.psongs_images_btn{
+	position:absolute;
+	width:65px;
+	height:65px;
+	left:6px;
+	top:35px;
+	border:0px;
+	background:url(../images/psongs_images_se.png) no-repeat;
+	}
+.psongs_images{
+	position:absolute;
+	width:61px;
+	height:61px;
+	left:8px;
+	top:36px;
+	border:0px;
+	background:url(../images/psongs_images_se.png) no-repeat;
+	}
+.psongs_title{
+	position:absolute;
+	width:61px;
+	height:20px;
+	top:105px;
+	left:8px;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:15px;
+	color:#000;
+	}	
+.btn_page_up{
+	position:absolute;
+	width:58px;
+	height:33px;
+	border:0px;
+	font-family: '微软雅黑';
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	left:254px;
+	top:435px;
+	background:url(../images/pagebtn.png) no-repeat;
+	padding-top:7px;
+	color:#8e8e8e;
+	}
+.btn_page_down{
+	position:absolute;
+	width:58px;
+	height:33px;
+	border:0px;
+	font-family: '微软雅黑';
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+    left:328px;
+    top:436px;
+	padding-top:7px;
+    background:url(../images/pagebtn.png) no-repeat;
+	background-repeat:no-repeat;
+    font-size:16px; 
+	font-weight:bold;
+   color:#8e8e8e;
+	}
+.btn_list{
+	position:absolute;
+	width:353px;
+	height:42px;
+	border:0px;
+	/*background: url(../images/list_se.png) no-repeat;*/
+	}
+
+.btn_list2{
+        position:absolute;
+        width:353px;
+        height:42px;
+        border:0px;
+        }
+	
+.list{
+	position:absolute;
+	width:357px;
+	height:337px;
+	left:240px;
+	top: 10px;
+	}
+.button{
+	position:absolute; 
+	width:113px; 
+	height:65px; 
+	left:25px;
+	top:440px;
+	border:0px;
+	background:url(../images/ha_index.png);
+	}
+.icon{
+	position:absolute;
+	width:16px;
+	height:26px;
+	left:18px;
+	top:7px;
+	background: url(../images/icon.png) no-repeat;
+   }
+.span{
+	position:absolute;
+	width:312px;
+	height:23px;
+	font-family:'微软雅黑';
+	font-size:21px;
+	color:#004f83;
+	left:35px;
+	padding-left:10px;
+	top:12px;
+	overflow:hidden;
+	}
+.page_num{
+    position:absolute; 
+	width:30px;
+	height:22px;
+	left:586px;
+	top:443px; 
+	font-family: Arial;
+	font-size:19px; 
+	color:#b76211; 
+	}
+.boder_one{
+	position:absolute;
+	width:4px;
+	height:190px;
+	top:8px;
+	visibility:hidden;
+	left:6px;
+	background:#ffff00;
+	}	
+.boder_two{
+	position:absolute;
+	width:220px;
+	height:4px;
+	top:8px;
+	left:6px;
+	visibility:hidden;
+	background:#ffff00;
+	}	
+.boder_tree{
+	position:absolute;
+	width:220px;
+	height:4px;
+	top:194px;
+	left:6px;
+	visibility:hidden;
+	background:#ffff00;
+	}
+.boder_four{
+	position:absolute;
+	width:4px;
+	height:190px;
+	top:8px;
+	visibility:hidden;
+	left:224px;
+	background:#ffff00;
+	}	

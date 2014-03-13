@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	position:absolute;
+	width:640px;
+	height:530px; 
+	background: url(../images/Level3_bg.jpg) no-repeat;
+	margin:0;
+	padding:0;
+	}
+.title{
+	position:absolute;
+	width:121px;
+	height:35px; 
+	left:26px; 
+	top:18px;
+	background: url(../images/Kiss_classroom_title.png) no-repeat;
+	}	
+.content{
+	position:absolute; 
+	width:583px;
+	height:337px;
+	left:31px;
+	top:73px;
+	}
+.filmbg_above{
+	position:absolute;
+	width:192px;
+	height:176px;
+	top:0px;
+	border:0px;
+	background: url(../images/p_child_paperbg.png)no-repeat;
+	}
+.filmbg_below{
+	position:absolute;
+	width:192px;
+	height:176px;
+	top:178px;
+	border:0px;
+	background: url(../images/p_child_paperbg.png)no-repeat;
+	}
+.filmbg_btn{
+	position:absolute;
+	width:188px;
+	height:230px;
+	left:6px;
+	top:7px;
+	border:0px;
+	background:url(../images/cheng_se.png) no-repeat;
+	}	
+.image{
+	position:absolute;
+	width:182px;
+	height:224px;
+	left:9px;
+	top:10px;
+	}
+.page_bg{
+	position:absolute;
+	width:207px;
+	height:251px;
+	background:url(../images/level3_paper.png) no-repeat;
+	}
+	
+.btn_page_up{
+	position:absolute;
+	width:58px;
+	height:33px;
+	border:0px;
+	font-family: '微软雅黑';
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:7px;
+	left:251px; 
+	top:435px;
+	background:url(../images/pagebtn.png) no-repeat;
+	color:#8e8e8e;
+	}
+.btn_page_down{
+	position:absolute;
+	width:58px;
+	height:33px;
+	border:0px;
+	font-family: '微软雅黑';
+	font-size:16px;
+	font-weight:bold;
+	padding-top:7px;
+    left:328px;
+    top:436px;
+	text-align:center;
+    background:url(../images/pagebtn.png) no-repeat;
+    font-size:16px; font-weight:bold;
+    color:#8e8e8e;;
+	}
+.btn_list{
+	position:absolute;
+	width:353px;
+	height:42px;
+	border:0px;
+	/*background: url(../images/list_se.png) no-repeat;*/
+	}
+.list{
+	position:absolute;
+	width:357px;
+	height:337px;
+	left:230px;
+	}
+.button{
+	position:absolute; 
+	width:113px; 
+	height:65px; 
+	left:25px;
+	top:440px;
+	border:0px;
+	background:url(../images/ha_index.png) no-repeat;
+	}
+.icon{
+	position:absolute;
+	width:16px;
+	height:26px;
+	left:18px;
+	top:7px;
+	background: url(../images/icon.png) no-repeat;
+   }
+.span{
+	position:absolute;
+	width:312px;
+	height:26px;
+	font-family:'微软雅黑';
+	font-size:21px;
+	color:#004f83;
+	left:35px;
+	padding-left:10px;
+	top:10px;
+	overflow:hidden;
+	}
+.page_num{
+    position:absolute; 
+	width:30px;
+	height:22px;
+	left:586px;
+	top:443px; 
+	font-family: Arial;
+	font-size:19px; 
+	color:#b76211; 
+	}	

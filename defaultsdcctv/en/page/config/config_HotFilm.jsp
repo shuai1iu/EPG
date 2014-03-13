@@ -1,0 +1,3 @@
+<%!
+	final static String DEFAULT_HOT_VOD = "00000100000000090000000000001021";  	//VOD栏目ID (1323)
+%>

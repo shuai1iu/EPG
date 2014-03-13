@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>童童影视（三级栏目）</title>
+<link rel="stylesheet" href="css/tftv_index.css" type="text/css" />
+<link rel="stylesheet" href="css/f_music2.css" type="text/css" />
+<link rel="stylesheet" href="css/collect_index.css" type="text/css" />
+<script src="JS/ttys.js"></script>
+<script src="JS/all.js"></script>
+<script language="javascript"  type="text/javascript">
+var col=2;
+var row=2;
+function buttonchange(id)
+{
+	buttonback();
+	 
+	switch(id)
+	{
+		 
+		case "allinfo":
+		document.getElementById("allinfo").style.background="url('images/content_intr_sel.png')";
+		break;
+		case "num_kuang":
+		document.getElementById("num_kuang").readOnly=false;
+		//document.getElementById("num_kuang").style.background="url('images/tftv_textbg_sel.png')";
+		document.getElementById("num_kuang").style.visibility="visible";
+				document.getElementById("num_kuang_hide").style.visibility="hidden";
+		break;
+		case "enter":
+		document.getElementById("enter").style.background="url('images/search_btnbg.png')";
+		break;
+		case "collect":
+		if(iscollect)
+		{
+		document.getElementById("collect").style.background="url('images/cancel_collect_selbg.png')";	
+		}
+		else
+		{	
+		document.getElementById("collect").style.background="url('images/collect_selbg.png')";
+		}
+		
+		break;
+		case "return":
+		document.getElementById("return").style.background="url('images/return_bg.png')";
+		break;
+		case "page_up":
+		if(nowpage==1)
+		{
+		col=5;
+		document.getElementById("page_down").style.background="url('images/pagebtn_sel.png')";
+		}else
+		{
+		 document.getElementById("page_up").style.background="url('images/pagebtn_sel.png')";
+		 
+		}
+		break;
+		case "page_down":
+		if(nowpage==allpage)
+		{
+		col=3;
+		 document.getElementById("page_up").style.background="url('images/pagebtn_sel.png')";
+		 
+		 }else
+		 {
+		document.getElementById("page_down").style.background="url('images/pagebtn_sel.png')";
+		}
+		break;
+		case "num":
+		document.getElementById(num).style.background="url('images/num_sel.png')";
+		num1=num;
+		// document.getElementById("desc").innerHTML=num1;
+		 
+		break;
+		case "index":
+		document.getElementById("index").style.background="url('images/ha_index_sel.png')";
+		break;
+		case "big_image":
+		document.getElementById("big_image").style.background="url('images/posters2_sel.png')";
+		break;
+
+		
+	}
+}
+function gotowhat()
+{
+	switch(col)
+	{
+		case 1:
+		switch(row)
+		{
+			case 1:
+			window.location.href="index.html";
+			break;
+			case 2:
+			if(iscollect)
+			{
+				cancelCollect();
+			}else
+			{
+				CollectPro();
+			}	
+			break;
+			case 3:
+                        window.location.href=href;
+			break;
+		}
+		break;
+		case 2:
+		switch(row)
+		{
+			case 1:
+			num_kuang.focus();
+			break;
+			case 2:
+			gotoplay(num1_1);
+			break;
+			case 3:
+		 	gotoplay(num2_1);
+			break;
+			case 4:
+			gotoplay(num3_1);
+			break;
+			case 5:
+			gotoplay(num4_1);
+			break;
+			case 6:
+			gotoplay(num5_1);
+			break;
+			case 7:
+			gotoplay(num6_1);
+			break;
+			case 8:
+			 pageup();
+			 
+			break;
+		}
+		break;
+		case 3:
+		switch(row)
+		{
+			case 1:
+			num_kuang.focus();
+			break;
+			case 2:
+			gotoplay(num1_2);
+			break;
+			case 3:
+			gotoplay(num2_2);
+			break;
+			case 4:
+			gotoplay(num3_2);
+			break;
+			case 5:
+			gotoplay(num4_2);
+			break;
+			case 6:
+			gotoplay(num5_2);
+			break;
+			case 7:
+			gotoplay(num6_2);
+			break;
+			case 8:
+			pageup();
+			break;
+		}
+		break;
+		case 4:
+		switch(row)
+		{
+			case 1:
+			num_kuang.focus();
+			break;
+			case 2:
+			gotoplay(num1_3);
+			break;
+			case 3:
+			gotoplay(num2_3);
+			break;
+			case 4:
+			gotoplay(num3_3);
+			break;
+			case 5:
+			gotoplay(num4_3);
+			break;
+			case 6:
+			gotoplay(num5_3);
+			break;
+			case 7:
+			gotoplay(num6_3);
+			break;
+			case 8:
+			pageup();
+			break;
+		}
+		break;
+		case 5:
+		switch(row)
+		{
+			case 1:
+			changeplay();
+			break;
+			case 2:
+			gotoplay(num1_4);
+			break;
+			case 3:
+			gotoplay(num2_4);
+			break;
+			case 4:
+			gotoplay(num3_4);
+			break;
+			case 5:
+			gotoplay(num4_4);
+			break;
+			case 6:
+			gotoplay(num5_4);
+			break;
+			case 7:
+			gotoplay(num6_4);
+			break;
+			case 8:
+			pagedown();
+			break;
+		}
+		break;
+		case 6:
+		switch(row)
+		{
+			case 1:
+			changeplay();
+			break;
+			case 2:
+			gotoplay(num1_5);
+			break;
+			case 3:
+			gotoplay(num2_5);
+			break;
+			case 4:
+			gotoplay(num3_5);
+			break;
+			case 5:
+			gotoplay(num4_5);
+			break;
+			case 6:
+			gotoplay(num5_5);
+			break;
+			case 7:
+			gotoplay(num6_5);
+			break;
+			case 8:
+			pagedown();
+			break;
+		}
+		break;
+		case 7:
+		switch(row)
+		{
+			case 1:
+			changeplay();
+			break;
+			case 2:
+			gotoplay(num1_6);
+			break;
+			case 3:
+			gotoplay(num2_6);
+			break;
+			case 4:
+			gotoplay(num3_6);
+			break;
+			case 5:
+			gotoplay(num4_6);
+			break;
+			case 6:
+			gotoplay(num5_6);
+			break;
+			case 7:
+			gotoplay(num6_6);
+			break;
+			case 8:
+			pagedown();
+			break;
+		}
+		break;
+	}
+}
+function muchinit()
+{
+	buttonchange(getbuttonrowid(row));
+	getlistinfo();
+}
+</script>
+</head>
+
+<body class="body" onload="muchinit()">
+<div class="content" id="box">
+<div class="collect_text" id="boxtext"></div>
+</div>	
+
+<div class="film_images_peper">
+<div class="film_btn" id="big_image" ></div>
+<img src="images/tftv_posters.png" id="poster"  class="film_image" style="position:absolute; width:155px; height:204px;" /></div>
+<div id="allinfo" class="content_intr">
+<span class="film_title" id="name"></span>
+<span class="film_content" id="desc"></span>
+</div>
+<div class="search">
+<span class="search_title">请输入集数</span>
+	<input type="text" class="search_text" id="num_kuang" maxlength="2"></input>
+	<div class="search_text" id="num_kuang_hide" ><span id="num_value" style=" position:absolute; padding-left:3px; padding-top:5px;"></span></div>
+	<div class="search_btn" id="enter" >确认</div></div>
+<table class="table" cellspacing="0"  >
+  <tr>
+    <td><div class="table_btn" id="num1_1"></div></td>
+    <td><div class="table_btn" id="num1_2"></div></td>
+    <td><div class="table_btn" id="num1_3"></div></td>
+    <td><div class="table_btn" id="num1_4"></div></td>
+    <td><div class="table_btn" id="num1_5"></div></td>
+    <td><div class="table_btn" id="num1_6"></div></td>
+  </tr>
+  <tr>
+    <td><div class="table_btn" id="num2_1"></div></td>
+    <td><div class="table_btn" id="num2_2"></div></td>
+    <td><div class="table_btn" id="num2_3"></div></td>
+    <td><div class="table_btn" id="num2_4"></div></td>
+    <td><div class="table_btn" id="num2_5"></div></td>
+    <td><div class="table_btn" id="num2_6"></div></td>
+  </tr>
+  <tr>
+    <td><div class="table_btn" id="num3_1"></div></td>
+    <td><div class="table_btn" id="num3_2"></div></td>
+    <td><div class="table_btn" id="num3_3"></div></td>
+    <td><div class="table_btn" id="num3_4"></div></td>
+    <td><div class="table_btn" id="num3_5"></div></td>
+    <td><div class="table_btn" id="num3_6"></div></td>
+  </tr>
+  <tr>
+    <td><div class="table_btn" id="num4_1"></div></td>
+    <td><div class="table_btn" id="num4_2"></div></td>
+    <td><div class="table_btn" id="num4_3"></div></td>
+    <td><div class="table_btn" id="num4_4"></div></td>
+    <td><div class="table_btn" id="num4_5"></div></td>
+    <td><div class="table_btn" id="num4_6"></div></td>
+  </tr>
+  <tr height="30">
+    <td><div class="table_btn" id="num5_1"></div></td>
+    <td><div class="table_btn" id="num5_2"></div></td>
+    <td><div class="table_btn" id="num5_3"></div></td>
+    <td><div class="table_btn" id="num5_4"></div></td>
+    <td><div class="table_btn" id="num5_5"></div></td>
+    <td><div class="table_btn" id="num5_6"></div></td>
+  </tr>
+  <tr height="30">
+    <td><div class="table_btn" id="num6_1"></div></td>
+    <td><div class="table_btn" id="num6_2"></div></td>
+    <td><div class="table_btn" id="num6_3"></div></td>
+    <td><div class="table_btn" id="num6_4"></div></td>
+    <td><div class="table_btn" id="num6_5"></div></td>
+    <td><div class="table_btn" id="num6_6"></div></td>
+  </tr>
+</table>
+
+<div  class="button" id="index" style="top:318px;"></div>
+<div  class="btn_collect" id="collect"></div>
+<div  class="btn_return" id="return"></div>
+<div  class="btn_page_up" id="page_up">上页</div>
+<div  class="btn_page_down"  id="page_down">下页</div>
+<div id="allpage" class="page_num">1/3</div>
+</body>
+</html>

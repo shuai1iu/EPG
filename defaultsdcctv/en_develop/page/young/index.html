@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>开心动画 首页</title>
+<link rel="stylesheet" href="css/index.css" type="text/css" />
+<script src="JS/index.js"></script>
+<script language="javascript" type="text/javascript">
+var col=1;
+var row=1;
+var lu_id="00000100000000090000000000022140";
+function indexinit()
+{
+Authentication.CTCSetConfig("key_ctrl_ex", "0");
+	getchannelplay(lu_id);
+	var r=getrequest("row");
+	var c=getrequest("col");
+	if(r==0||c==0||r==null||c==null)
+	{
+		row=1;
+		col=1;	
+	}else
+	{
+	
+		col=parseInt(c);
+		row=parseInt(r);
+		}
+	var  channel=7; 
+	switch(row)
+	{
+		case 1:
+		switch(col)
+		{
+		case 1:
+		channel=7;
+		break;
+		case 2:
+		channel=24;
+	        break;
+		case 3:
+		channel=59;
+	        break;
+		case 4:
+		channel=60;
+	        break;
+		case 5:
+		channel=61;
+	        break;
+		case 6:
+		channel=65;
+		break;	
+		}
+		break;
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+		channel=7;
+		break;		
+		}
+	channel=parseInt(channel);	
+	buttonchange(getbuttonrowid());
+	playPage.location.href="/EPG/jsp/defaultsdcctv/en/page/PlayTrailerInVas.jsp?left=250&top=110&width=281&height=197&type=CHAN&value="+channel+"&contenttype=1&liveid="+channel;
+}
+	
+</script>
+</head>
+
+<body onload="indexinit()" bgcolor="transparent" background="images/background.png">
+<div id="header">
+<div  id="button_SC"  class="button" style=" width:82px; height:24px; background:url(images/shenzhen_children.png); top:31px; left:68px;"></div>
+<div  id="button_CC" class="button" style=" width:80px; height:24px; background:url(images/cctv_children.png); top:31px; left:158px;"></div>
+<div  id="button_CCL" class="button" style=" width:79px; height:26px; background:url(images/card_cool.png); top:26px; left:250px;"></div>
+<div id="button_FC"  class="button" style=" width:79px; height:26px; background:url(images/fine_cartoon.png); top:23px; left:340px;"></div>
+<div  id="button_JC"  class="button" style=" width:82px; height:24px; background:url(images/jinying_cartoon.png); top:31px; left:428px;"></div>
+<div  id="button_OD" class="button" style=" width:80px; height:28px; background:url(images/optimal_diffuse.png); top:32px; left:530px;"></div>
+</div>
+<div  id="button_index" class="button" style=" width:122px; height:77px; background: url(images/index.png); top:109px; left:14px;"></div>
+<div id="button_ha" class="button" style=" width:104px; height:40px; background:url(images/Happy_animation.png); top:204px; left:34px;"></div>
+<div id="button_fm" class="button" style=" width:104px; height:34px; background:url(images/Flowers_music.png); top:255px; left:34px;"></div>
+<div id="button_tf" class="button" style=" width:104px; height:37px; background:url(images/Tong_film.png); top:301px; left:34px;"></div>
+<div id="button_kc" class="button" style=" width:104px; height:35px; background:url(images/Kiss_classroom.png); top:347px; left:34px;"></div>
+<div id="button_cp" class="button" style=" width:104px; height:40px; background:url(images/Children_project.png); top:397px; left:34px;"></div>
+<div id="button_pa" class="button" style=" width:84px; height:78px; background: url(images/photo_album.png);top:437px; left:30px;"></div>
+<iframe      id="playPage" name="playPage" frameborder="0"  height="1px" width="1px" ></iframe>
+<div class="guidance">
+<div class="button" id="film_f">
+<img id="s_image_1" class="images" />
+</div>
+<div  id="film_s"class="button" style="left:162px;">
+<img id="s_image_2" class="images"   /></div>
+<div  id="film_t" class="button" style="left:309px;">
+<img id="s_image_3" class="images"  /></div>
+</div>
+</body>
+</html>

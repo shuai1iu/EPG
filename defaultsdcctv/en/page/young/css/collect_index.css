@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	position:absolute;
+	width:640px;
+	height:530px; 
+	margin:0;
+	padding:0;
+	}	
+.content{
+	display:none;	
+	position:absolute;
+	width:500px;
+	height:271px;
+	left:73px;
+	top:133px;	
+	background:url(../images/play_contentbg.png) no-repeat;
+	font-family:"黑体";
+	font-size:22px;
+	color:#fff;
+	text-align:center;
+	z-index:1000;
+	}	
+.collect_text{
+	position:absolute;
+	width:200px;
+	height:30px;
+	left:156px;
+	top:115px;
+	border:0px;
+	font-family:"黑体";
+	font-size:22px;
+	color:#fff;
+	text-align:center;
+	padding-top:7px;
+	background:url(../images/play_boxse.png) no-repeat;
+	}		

@@ -1,0 +1,260 @@
+﻿
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+SITE: 湖北广电标清EPG2.0 	2014/02/14
+
+#CSS部分
+·（../css/common.css） 更新
+
+#images部分
+·（../images/*） 更新及新增
+
+#HTML部分
+·（../page/news.html） 新增
+·（../page/column.html） 新增
+·（../page/column-news.html） 新增
+
+注：焦点样式默认使用机顶盒自带a的黄框效果。  
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+SITE: 湖北广电标清EPG2.0 	2014/02/13
+
+#CSS部分
+·（../css/common.css） 新增
+
+#images部分
+·（../images/*） 更新及新增
+
+#HTML部分
+·（../page/index.html） 更新
+·（../page/vod.html） 更新
+·（../page/vod-two.html） 更新
+·（../page/playback.html） 更新
+·（../page/live.html） 更新
+
+注：焦点样式默认使用机顶盒自带a的黄框效果。  
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+SITE: 湖北标清EPG2.0 	2014/01/03
+
+#CSS部分
+·（../css/style.css） 更新
+
+#images部分
+·（../images/icon-point.png） 更新
+
+#HTML部分
+·（../page/playback.html） 更新
+
+注：焦点样式默认使用机顶盒自带a的黄框效果。  
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+SITE: 湖北标清EPG2.0 	2013/12/31
+
+#CSS部分
+·（../css/style.css） 更新
+
+#images部分
+·（../images/bg-live02.jpg） 更新
+·（../images/bg-playback.jpg） 更新
+·（../images/arrow-up02.png） 更新
+·（../images/arrow-down02.png） 更新
+
+#HTML部分
+·（../page/playback.html） 更新
+
+注：焦点样式默认使用机顶盒自带a的黄框效果。  
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+SITE: 湖北标清EPG2.0 	2013/12/22
+
+#CSS部分
+·（../css/style.css） 更新
+
+#images部分
+·（../images/bg-index01.jpg） 新增及更新
+
+#HTML部分
+·（../page/vod.html） 更新
+·（../page/playback.html） 新增
+·（../page/live.html） 新增
+·（../page/fast-rewind.html） 新增
+·（../page/pause.html） 新增
+·（../page/live-left.html） 新增
+·（../page/live-right.html） 新增
+
+注：焦点样式默认使用机顶盒自带a的黄框效果。  
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+SITE: 湖北标清EPG2.0 	2013/12/17
+
+#CSS部分
+·（../css/style.css） 更新
+
+#images部分
+·（../images/bg-index01.jpg） 更新
+·（../images/bg-index02.jpg） 更新
+·（../images/bg-index03.jpg） 更新
+·（../images/bg-index04.jpg） 更新
+·（../images/logo-hubei.png） 更新
+
+#HTML部分
+·（../page/index.html） 更新
+
+注：焦点样式默认使用机顶盒自带a的黄框效果。  
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+SITE: 湖北标清EPG2.0 	2013/12/06
+
+#CSS部分
+·（../css/style.css） 更新
+
+#images部分
+·（../images/bg-index01.jpg） 更新
+·（../images/bg-index02.jpg） 更新
+·（../images/bg-index03.jpg） 更新
+·（../images/bg-index04.jpg） 更新
+·（../images/btn-bookmark.png） 更新
+·（../images/btn-search.png） 更新
+
+注：焦点样式默认使用机顶盒自带a的黄框效果。  
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+SITE: 湖北标清EPG2.0 	2013/12/05
+
+#CSS部分
+·（../css/style.css） 更新
+
+#HTML部分
+·（../page/vod.html） 更新
+
+注：焦点样式默认使用机顶盒自带a的黄框效果。  
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+SITE: 湖北标清EPG2.0 	2013/12/03
+
+#CSS部分
+·（../css/style.css） 更新
+
+#images部分
+·（../images/bg-vod.jpg） 新增
+·（../images/logo-hubei.png） 更新
+·（../images/btn-self-help.png） 更新
+·（../images/btn-search.png） 更新
+·（../images/btn-bookmark.png） 更新
+·（../images/nav-bg_focus.png） 新增
+·（../images/arrow-down.png） 新增
+·（../images/arrow-up.png） 新增
+·（../images/txt-bg.png） 新增
+
+#HTML部分
+·（../page/index.html） 更新
+·（../page/vod.html） 新增
+
+注：焦点样式默认使用机顶盒自带a的黄框效果。  
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+SITE: 湖北标清EPG2.0 	2013/11/28
+
+#CSS部分
+·（../css/style.css） 更新
+
+#images部分
+·（../images/bg-list02.jpg） 新增
+·（../images/btn-self-help.png） 新增
+·（../images/btn-search.png） 新增
+·（../images/btn-bookmark.png） 新增
+
+#HTML部分
+·（../page/index.html） 更新
+·（../page/special-topic2.html） 更新
+·（../page/application.html） 新增
+
+注：焦点样式默认使用机顶盒自带a的黄框效果。  
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+SITE: 湖北标清EPG2.0 	2013/11/19
+
+#CSS部分
+·（../css/style.css） 更新
+
+#images部分
+·（../images/*） 更新及新增
+
+#HTML部分
+·（../page/index.html） 更新
+
+注：焦点样式默认使用机顶盒自带a的黄框效果。
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+SITE: 湖北标清EPG2.0 	2013/11/14
+
+#CSS部分
+·（../css/style.css） 更新
+
+#images部分
+·（../images/bg-st.jpg） 新增
+·（../images/bg-list.jpg） 新增
+·（../images/icon-arrow.png） 新增
+
+#HTML部分
+·（../page/special-topic.html） 新增
+·（../page/special-topic2.html） 新增
+
+注：焦点样式默认使用机顶盒自带a的黄框效果。
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+SITE: 湖北标清EPG2.0 	2013/11/11
+
+#CSS部分
+·（../css/style.css） 更新
+
+#images部分
+·（../images/*） 更新及新增
+
+#HTML部分
+·（../page/index.html） 更新
+
+注：焦点样式默认使用机顶盒自带a的黄框效果。
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+SITE: 湖北标清EPG2.0 	2013/02/22
+
+#CSS部分
+·（../css/*）
+
+#images部分
+·（../images/*）
+
+#HTML部分
+·（../page/*）
+
+注：焦点样式默认使用机顶盒自带a的黄框效果。
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+

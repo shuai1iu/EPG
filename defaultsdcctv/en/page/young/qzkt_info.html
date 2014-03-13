@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>亲子课堂</title>
+<link rel="stylesheet" href="css/Level3.css" type="text/css" />
+<script src="JS/qzktinfo.js"></script>
+<script src="JS/all.js"></script>
+<script language="javascript"  type="text/javascript">
+function gotowhat()
+{
+	switch(col)
+		{
+			 
+             case 1:
+             switch(row)
+                {
+                                case 9:
+                                window.location.href="index.html";
+                                break;
+
+                 }
+                        break;
+				case 2:
+				switch(row)
+                        {
+                                case 1:
+                                muchorone(number,"",1,"");
+                                break;
+                                case 2:
+                                muchorone(number+1,"",2,"");
+                                break;
+                                case 3:
+                                muchorone(number+2,"",3,"");
+                                break;
+                                case 4:
+                                muchorone(number+3,"",4,"");
+                                break;
+                                case 5:
+                                muchorone(number+4,"",5,"");
+                                break;
+                                case 6:
+                                muchorone(number+5,"",6,"");
+                                break;
+                                case 7:
+                                muchorone(number+6,"",7,"");
+                                break;
+                                case 8:
+                                muchorone(number+7,"",8,"");
+                                break;
+				case 9:
+				pageup();
+				break;
+                        }
+			break;
+			case 3:
+			switch(row)
+			{
+				case 9:
+				pagedown();
+				break;
+			}
+			break;
+		}
+}
+function hryyinit()
+{
+        givechannelid();
+        buttonchange(getbuttonrowid(row));
+}
+		
+</script>
+</head>
+<body onload="hryyinit()"  bgcolor='transparent'>
+<div  class="title"></div>
+<div class="content">
+	<div class="boder_one" id="left"></div>
+	<div class="boder_two" id="right"></div>
+	<div class="boder_tree"id="up"></div>
+	<div class="boder_four" id="down"></div>	
+<div class="page_bg">
+<div class="filmbg_btn" ></div>
+<img id="l_img" class="image"/>
+</div>	
+<div class="list" id="info" style="display:none">
+<div class="btn_list">
+<div class="btn_list" id="song_1"></div>
+<div id="text_1"  class="span"></div>
+</div>
+<div class="btn_list" style="top:40px;">
+<div class="btn_list" id="song_2"></div>
+<div id="text_2" class="span"></div>
+</div>
+<div class="btn_list" style="top:80px;">
+<div class="btn_list" id="song_3" ></div>
+<div id="text_3" class="span"></div>
+</div>
+<div class="btn_list" style="top:120px;">
+<div class="btn_list" id="song_4"></div>
+<div id="text_4" class="span"></div>
+</div>
+<div class="btn_list" style="top:160px;">
+<div class="btn_list" id="song_5"></div>
+<div id="text_5" class="span" ></div>
+</div>
+<div class="btn_list" style="top:200px;">
+<div class="btn_list" id="song_6"></div>
+<div id="text_6" class="span"></div>
+</div>
+<div class="btn_list" style="top:240px;">
+<div class="btn_list" id="song_7"></div>
+<div id="text_7" class="span"></div>
+</div>
+<div class="btn_list" style="top:280px;">
+<div class="btn_list" id="song_8"></div>
+<div id="text_8" class="span"></div>
+</div>
+</div>
+</div>
+<div class="button" id="index"></div>
+<div id="page_u" class="btn_page_up" >上页</div>
+<div id="page_d" class="btn_page_down" >下页</div>
+<div id="allpage" class="page_num"></div>
+</body>
+
+</html>

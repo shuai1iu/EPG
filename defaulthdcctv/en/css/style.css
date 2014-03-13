@@ -1,0 +1,98 @@
+/* =S Css Reset
+----------------------------------------------- */
+body, div, h1, h2, h3, h4, h5, h6, button, input, textarea, th, td { margin:0px; padding:0px; }
+body, div, button, input, select, textarea { font-size:18px; font-family: SimHei,sans-serif; line-height: 100%; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+a { text-decoration: none; }
+fieldset, img { border: 0px; }
+button, input, select, textarea { font-size:100%; }
+
+/* =S Global
+----------------------------------------------- */
+.item, .link, .txt-wrap, .txt, .btn, .icon, .pic, .pic-shade, .num, .win { left:0; position:absolute; top:0;}
+.link { z-index:9;}
+.txt { z-index:7;}
+.txt-wrap { z-index:6;}
+.icon { z-index:5;}
+.pic-shade { z-index:4;}
+.pic { z-index:3;}
+.btn { text-align:center;}
+.wrapper,.pagebg {
+	left:0px;
+	position:absolute;
+	top:0;
+}
+.wrapper {
+    height: 720px;
+    width: 1280px;
+	z-index:2;
+}
+.pagebg {
+	z-index:1;
+}
+.txt-headline {
+	color:#fff;
+	font-size:40px;
+	left:100px;
+	top:50px;
+	font-weight:bold;
+}
+.txt-headline-a {
+	color:#afaeae;
+	font-size:20px;
+	left:50px;
+	top:20px;
+}
+.txt-headline-a span {
+	color:#ededed;
+	font-size:26px;
+	font-weight:bold;
+}
+
+/*cancel*/
+.cancel {
+	left:250px;
+	position:absolute;
+	top:122px;
+} 
+.cancel .txt-tit {
+	font-size:50px;
+	font-weight:bold;
+	text-align:center;
+	width:800px;
+}
+ .cancel .txt-con,
+ .cancel .txt-con02 {
+ 	font-size:30px;
+	line-height:44px;
+	top:150px;
+	width:800px;
+ } 
+.cancel .txt-con {
+	text-indent:4em;
+} 
+.cancel .txt-con02 {
+	text-align:center;
+} 
+.btns {
+	left:450px;
+	position:absolute;
+	top:450px;
+} 
+.btns .item,
+.btns .item .link,
+.btns .item .link img,
+.btns .item .txt {
+	font-size:24px;
+	height:42px;
+	line-height:42px;
+	text-align:center;
+    width:92px;
+} 
+.btns .item {
+	background:url(../images/btnbg.png) no-repeat;
+}
+
+
+
+

@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	position:absolute;
+	width:640px;
+	height:530px; 
+	background: url(../images/baby_projectbg.png) no-repeat;
+	margin:0;
+	padding:0;
+	}
+.content{
+	position:absolute;
+	width:429px;
+	height:48px;
+	left:120px;
+	top:189px;
+	}
+.icon_left{
+	position:absolute;
+	width:32px;
+	height:48px;
+	}	
+.icon_right{
+	position:absolute;
+	width:32px;
+	height:48px;
+	left:398px;
+	}
+.msg{
+	position:absolute;
+	width:159px;
+	height:29px;
+	left:236px;
+	top:273px;
+	font-family: "黑体";
+	color:#a8e7ff;
+	font-size:22px;
+	}
+.images{
+	position:absolute;
+	width:366px;
+	height:48px;
+	left:32px;
+	}	
+.button{
+    position:absolute; 
+	width:113px; 
+	height:65px; 
+	left:25px; 
+	top:439px; 
+	border:0px;
+	background:url(../images/ha_index_sel.png);
+	}

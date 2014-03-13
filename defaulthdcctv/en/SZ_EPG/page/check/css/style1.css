@@ -1,0 +1,413 @@
+/* =S Css Reset
+----------------------------------------------- */
+body, div, h1, h2, h3, h4, h5, h6, button, input, textarea, th, td { margin:0px; padding:0px; }
+body, div, button, input, select, textarea { font-size: 20px; font-family: Microsoft YaHei,sans-serif; line-height: 100%; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+a { text-decoration: none; }
+fieldset, img { border: 0px; }
+button, input, select, textarea { font-size:100%; }
+
+/* =S Global
+----------------------------------------------- */
+.item, .link, .txt-wrap, .txt, .btn, .icon, .pic, .cover, .num, .win { position:absolute;}
+.link { left: 0px; top: 0px; z-index:9;}
+.txt { left: 0px; z-index:7;}
+.txt-wrap { z-index:6;}
+.icon { z-index:5;}
+.cover { z-index:4;}
+.pic { z-index:3;}
+.btn { text-align: center;}
+
+body, .wrapper {
+    height: 720px;
+    width: 1280px;
+    background: transparent;
+    /*overflow: hidden;*/
+    position: relative;
+}
+body {
+    /* background-color: #000;*/
+    color: #fff;
+}
+/* =E Global */
+
+/* S= Page order
+----------------------------------------------- */
+.j-btnA,
+.j-btnA .item,
+.j-btnA .item .txt {
+    height: 59px;
+    width: 148px;
+    position: absolute;
+}
+.j-btnA .item {
+    background-repeat: no-repeat;
+    background-image: url("../images/j-btn148x59-item.png");
+    left: 0px;
+    top: 0px;
+}
+.j-btnA .item:hover,
+.j-btnA .item_focus {
+    background-image: url("../images/j-btn148x59-item_focus.png");
+}
+.j-btnA .item .txt {
+    height: 30px;
+    text-align: center;
+    top: 16px;
+}
+.j-btn-back,
+.j-btn-back .item {
+    height: 70px;
+    width: 132px;
+    position: absolute;
+}
+.j-btn-back .item {
+    background-repeat: no-repeat;
+    background-image: url("../images/j-btn-back-item.png");
+    left: 0px;
+    top: 0px;
+}
+.j-btn-back .item:hover,
+.j-btn-back .item_focus {
+    background-image: url("../images/j-btn-back-item_focus.png");
+}
+
+.j-postTitle {
+    color: #fff;
+    font-size: 27px;
+    height: 32px;
+    width: 555px;
+    position: absolute;
+    left: 49px;
+    top: 89px;
+}
+.j-postPic {
+    position: absolute;
+    left: 60px;
+    top: 133px;
+}
+.j-postPrice,
+.j-postDateTime {
+    color: #ff2500;
+    width: 240px;
+    position: absolute;
+    left: 490px;
+}
+.j-postPrice {
+    top: 206px;
+}
+.j-postDateTime {
+    top: 257px;
+}
+.j-recommend .j-recommendTitle {
+    width: 351px;
+    position: absolute;
+    left: 863px;
+    text-align: center;
+}
+.j-recommendA .j-recommendTitle {
+    color: #bc2c13;
+    font-size: 27px;
+    height: 44px;
+    top: 156px;
+}
+.j-recommendB .j-recommendTitle {
+    color: #b24509;
+    font-size: 35px;
+    font-weight: bold;
+    height: 50px;
+    top: 443px;
+}
+.j-recommend .j-recommendPrice {
+    color: #b24509;
+    font-size: 41px;
+    font-family: "SimHei";
+    font-weight: bold;
+    height: 62px;
+    width: 74px;
+    position: absolute;
+    left: 1039px;
+}
+.j-recommendA .j-recommendPrice {
+    top: 206px;
+}
+.j-recommendB .j-recommendPrice {
+    top: 501px;
+}
+.j-recommend .j-btnA {
+    left: 976px;
+}
+.j-recommendA .j-btnA {
+    top: 328px;
+}
+.j-recommendB .j-btnA {
+    top: 606px;
+}
+
+.j-logoPageTitle {
+    color: #6a6a6b;
+    font-size: 36px;
+    position: absolute;
+    left: 236px;
+    top: 47px;
+}
+.j-logoPageTitle span.f {
+    font-size: 26px;
+}
+
+.j-tipsBox {
+    background: url("../images/j-tipsBox.jpg") no-repeat;
+    height: 386px;
+    width: 1000px;
+    position: absolute;
+    left: 129px;
+    top: 196px;
+}
+.j-tipsBox .j-title,
+.j-tipsBox .j-cont {
+    position: absolute;
+    width: 443px;
+    text-shadow: 0 3px 3px rgba(13, 4, 8, .9);
+}
+.j-tipsBox .j-title {
+    height: 32px;
+    left: 450px;
+    top: 76px;
+}
+.j-tipsBox .j-cont {
+    line-height: 120%;
+    left: 500px;
+    top: 106px;
+}
+.j-tipsBox .j-effectLight {
+    height: 164px;
+    width: 283px;
+    z-index: 999;
+    position: absolute;
+    left: 3px;
+    top: 222px;
+}
+.j-tipsBox .j-cornerTxt {
+    height: 75px;
+    width: 175px;
+    position: absolute;
+    left: 20px;
+    top: 280px;
+}
+
+/* E= Page order */
+
+/* E= Page order */
+.packages,
+.packages div {
+	font-family: "SimHei";
+}
+.packages{
+	position: absolute;
+	width: 1012px;
+	height: 472px;
+	left: 140px;
+	top:168px;
+	color: #272727;
+	
+}
+.packages .seniorVip{
+	position: absolute;
+	height: 464px;
+	width: 312px;
+	left:4px;
+	top:4px;
+}
+.packages .seniorVip .zTop{
+	color: #FFBA02;
+    height: 32px;
+    line-height: 32px;
+    text-align:center;
+	background-color: #2b2b2b;
+	border-right: 1px solid #7F7F7F;
+}
+.packages .seniorVip .zMiddle{
+	height: 392px;
+	position:relative;
+	border-left: 1px solid #7c7c7c;
+}
+.packages .seniorVip .zBottom{
+	height: 71px;
+	background-color: #444444;
+}
+.packages .ordinary{
+	position: absolute;
+	height: 464px;
+	width: 693px;
+	left:316px;
+	top:4px;
+}
+.packages .ordinary .zTop{
+	height: 32px;
+	position:absolute;
+	width:100%;top:0;
+	background-color: #2b2b2b;
+	line-height: 32px;
+	text-align: center;
+	width: 172px;
+	color:#ffba02;
+	border-right: 1px solid #7f7f7f;
+}
+.packages .ordinary .zMiddle{
+	height: 392px;
+	position:relative;
+	border-right: 1px solid #7c7c7c;
+}
+.packages .ordinary .zBottom{
+	height: 71px;
+	background-color: #444444;
+}
+.packages .ordinary .zMiddle .item{
+	position: absolute;
+	width: 173px;
+	height: 360px;
+	left:0;top:0;
+	padding-top:32px;
+	background: url("../images/z-icon-001.jpg") 0 32px no-repeat;
+}
+.packages .seniorVip .zMiddle .item{
+	background: url("../images/z-icon-002.jpg") 0 32px no-repeat;
+	height: 392px;
+	width:311px;
+}
+.packages .item .icon-btn{
+	position: absolute;
+	height: 70px;
+	width: 132px;
+	top:324px;
+	left:20px;
+	background: url("../images/z-icon-003.png") center top no-repeat;
+}
+.packages .item_focus .icon-btn,.packages .item:hover .icon-btn{
+	background: url("../images/z-icon-003-1.png") center top no-repeat;
+}
+.packages .item_select .icon-btn{
+	background: url("../images/z-icon-003-2.png") center top no-repeat;
+}
+.packages .ordinary .icon-img{
+	height: 80px;
+	position:relative;
+	margin-top: 31px;
+}
+.packages .ordinary .icon-img div{
+	position: absolute;
+	width: 100%;
+	top:63px;
+	font-size:18px;
+	text-align: center;
+}
+.packages .ordinary .icon1{
+	background: url("../images/z-icon-004.png") center top no-repeat;
+}
+.packages .ordinary .icon2{
+	background: url("../images/z-icon-005.png") center top no-repeat;
+}
+.packages .ordinary .icon3{
+	background: url("../images/z-icon-006.png") center top no-repeat;
+}
+.packages .ordinary .icon4{
+	background: url("../images/z-icon-007.png") center top no-repeat;
+}
+
+.packages .ordinary .item_focus .icon1,.packages .ordinary .item:hover .icon1{
+	background: url("../images/z-icon-004-1.png") center top no-repeat;
+}
+.packages .ordinary .item_focus .icon2,.packages .ordinary .item:hover .icon2{
+	background: url("../images/z-icon-005-1.png") center top no-repeat;
+}
+.packages .ordinary .item_focus .icon3,.packages .ordinary .item:hover .icon3{
+	background: url("../images/z-icon-006-1.png") center top no-repeat;
+}
+.packages .ordinary .item_focus .icon4,.packages .ordinary .item:hover .icon4{
+	background: url("../images/z-icon-007-1.png") center top no-repeat;
+}
+.packages .ordinary .price{
+	text-align: center;
+	color: #000000;
+	font-size: 23px;
+	position: absolute;
+	width: 100%;
+	top: 155px;
+}
+.packages .ordinary .des{
+	color: #333333;
+	font-size: 18px;
+	line-height: 22px;
+	position: absolute;
+	top: 187px;
+	width: 149px;
+	left: 18px;
+}
+
+.packages .zBottom .item .icon-btn{
+	
+}
+.packages .seniorVip .icon-img{
+	height: 80px;
+	position:relative;
+	margin-top: 27px;
+}
+.packages .seniorVip .icon-img div{
+	position: absolute;
+	width: 100%;
+	top:59px;
+	font-size:25px;
+	text-align: center;
+}
+.packages .seniorVip .icon1{
+	background: url("../images/z-icon-008.png") center top no-repeat;
+}
+.packages .seniorVip .item_focus .icon1,.packages .seniorVip .item:hover .icon1{
+	background: url("../images/z-icon-008-1.png") center top no-repeat;
+}
+.packages .seniorVip .price{
+	text-align: center;
+	color: #000000;
+	font-size: 23px;
+	margin-top: 15px;
+	position: relative;
+}
+.packages .seniorVip .price span{
+	font-size: 35px;
+}
+.packages .seniorVip .del{
+	color: #9f9f9f;
+	font-size: 19px;
+	margin-top: 5px;
+}
+.packages .seniorVip .del span{
+	font-size: 19px;
+	text-decoration: line-through;
+}
+.packages .seniorVip .desVip{
+	left: 40px;
+    position: absolute;
+    top: 212px;
+    width: 232px;
+}
+.packages .seniorVip .z-title{
+	position: absolute;
+	left:0px;
+}
+
+.packages .z-top{
+	position: absolute;
+	left:0;top:0;
+	width:124px;
+	height:124px;
+	z-index:22;
+	background: url("../images/top-icon.png") 0 top no-repeat;
+}
+.packages .seniorVip .des{
+	line-height: 22px;
+	left: 60px;
+    line-height: 22px;
+    position: absolute;
+    font-size: 18px;
+}
+

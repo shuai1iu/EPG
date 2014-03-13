@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	position:absolute;
+	width:640px;
+	height:530px; 
+	margin:0;
+	padding:0;
+	background:url(../images/secondarybar_bg.jpg) no-repeat;
+	}
+.title{
+	position:absolute;
+	width:130px;
+	height:40px;
+	left:23px; 
+	top:12px; 
+	background:url(../images/ha_secondary.png)no-repeat;
+	}	
+.content{
+	position:absolute; 
+	width:597px;
+	height:363px;
+	left:20px;
+	top:68px;
+	}
+.filmbg_above{
+	position:absolute;
+	width:143px;
+	height:180px;
+	top:0px;
+	border:0px;
+	background: url(../images/paper.png) no-repeat;
+	}
+.filmbg_btn{
+	position:absolute;
+	width:126px;
+	height:165px;
+	left:7px;
+	top:3px;
+	background: url(../images/posters_se.png) no-repeat;
+	
+	}	
+.filmbg_below{
+	position:absolute;
+	width:143px;
+	height:180px;
+	top:182px;
+	border:0px;
+	background: url(../images/paper.png) no-repeat;
+	}
+.image{
+	position:absolute;
+	width:116px;
+	height:155px;
+	left:12px;
+	top:8px;
+	}	
+.btn_page_up{
+	position:absolute;
+	width:58px;
+	height:33px;
+	border:0px;
+	font-family: '微软雅黑';
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	left:251px; 
+	top:435px;
+	padding-top:7px;
+	background:url(../images/pagebtn.png) no-repeat;
+	background-repeat:no-repeat;
+	color:#8e8e8e;
+	}
+.btn_page_down{
+	position:absolute;
+	width:58px;
+	height:33px;
+	border:0px;
+	font-family: '微软雅黑';
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+    left:328px;
+    top:436px;
+	padding-top:7px;
+    background:url(../images/pagebtn.png) no-repeat;
+	background-repeat:no-repeat;
+    font-size:16px; 
+	font-weight:bold;
+   color:#8e8e8e;
+	}
+.button{
+	position:absolute; 
+	width:113px; 
+	height:65px; 
+	left:25px;
+	top:440px;
+	border:0px;
+	background:url(../images/ha_index.png);
+	}
+.page_num{
+    position:absolute; 
+	width:30px;
+	height:22px;
+	left:586px;
+	top:443px; 
+	font-family: Arial;
+	font-size:19px; 
+	color:#b76211; 
+	}		

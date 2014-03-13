@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>亲子课堂</title>
+<link rel="stylesheet" href="css/p_child.css" type="text/css" />
+<script src="JS/qzktwill.js"></script>
+<script src="JS/all.js"></script>
+<script language="javascript"  type="text/javascript">
+function gotowhat()
+{
+	switch(row)
+	{
+		case 1:
+		switch(col)
+		{
+			case 1:
+			pageup();
+			break;
+			case 2:
+			pagedown();
+			break;
+		}
+		break;
+			case 2:
+			switch(col)
+			{
+				case 1:
+				window.location.href="qzkt_info.html?typeid="+list[beginum].TYPEID+"&imgurl=../../"+list[beginum].PICPATH;
+				break;
+				case 2:
+				window.location.href="qzkt_info.html?typeid="+list[beginum+1].TYPEID+"&imgurl=../../"+list[beginum+1].PICPATH;
+				break;
+				case 3:
+				window.location.href="qzkt_info.html?typeid="+list[beginum+2].TYPEID+"&imgurl=../../"+list[beginum+2].PICPATH;
+				break;
+			}
+			break;
+			case 3:
+			switch(col)
+			{
+				case 1:
+				window.location.href="qzkt_info.html?typeid="+list[beginum+3].TYPEID+"&imgurl=../../"+list[beginum+3].PICPATH;
+				break;
+				case 2:
+				window.location.href="qzkt_info.html?typeid="+list[beginum+4].TYPEID+"&imgurl=../../"+list[beginum+4].PICPATH;
+				break;
+				case 3:
+				window.location.href="qzkt_info.html?typeid="+list[beginum+5].TYPEID+"&imgurl=../../"+list[beginum+5].PICPATH;
+				break;
+			}
+			break;
+			case 4:
+			switch(col)
+			{
+				case 1:
+			window.location.href="index.html?row=5&col=1";
+			break;
+			case 2:
+			pageup();
+			break;
+			case 3:
+			pagedown();
+			break;
+																	
+			}
+			break;
+		}
+}
+</script>
+</head>
+
+<body onload="givechannelid()" background="images/secondarybar_bg.jpg">
+<div  class="title"></div>
+<div class="btn_page_up" id="page_u">上页</div>
+<div  class="btn_page_down" id="page_d" >下页</div>
+<div class="content">
+<div id="kxbg_1" class="filmbg_above" style="left:0px;">
+<div class="filmbg_btn" id="kx_1"></div>
+<img id="img_1" class="image"/>
+<div id="text_1" class="label"></div>
+</div>
+<div id="kxbg_2" class="filmbg_above" style="left:198px;">
+<div class="filmbg_btn" id="kx_2"></div>
+<img id="img_2"  class="image"/>
+<div id="text_2" class="label"></div></div>
+<div id="kxbg_3" class="filmbg_above" style="left:396px;">
+<div class="filmbg_btn" id="kx_3"></div>
+<img id="img_3" class="image" />
+<div  id="text_3"class="label"></div></div>
+<div id="kxbg_4"  class="filmbg_below" style="left:0px;">
+<div class="filmbg_btn" id="kx_4"></div>
+<img id="img_4" class="image" />
+<div id="text_4" class="label"></div></div>
+<div id="kxbg_5" class="filmbg_below" style="left:198px;">
+<div class="filmbg_btn" id="kx_5"></div>
+<img id="img_5" class="image" />
+<div id="text_5" class="label"></div></div>
+<div id="kxbg_6" class="filmbg_below" style="left:396px;">
+<div class="filmbg_btn" id="kx_6"></div>
+<img id="img_6" class="image" />
+<div id="text_6" class="label"></div></div>
+</div>
+<div class="button" id="back"></div>
+<div class="btn_page_up" style="top:443px;" id="page_up">上页</div>
+<div class="btn_page_down" style="top:443px;" id="page_down" >下页</div>
+<div id="allpage" class="page_num"></div>
+</body>
+</html>

@@ -1,0 +1,428 @@
+/* =S Css Reset
+----------------------------------------------- */
+body, div, h1, h2, h3, h4, h5, h6, button, input, textarea, th, td { margin:0px; padding:0px; }
+body, div, button, input, select, textarea { font-size: 20px; font-family: SimHei,sans-serif; line-height: 100%; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+a { text-decoration: none; }
+fieldset, img { border: 0px; }
+button, input, select, textarea { font-size:100%; }
+
+
+/* =S Global
+----------------------------------------------- */
+.item, .link, .txt-wrap, .txt, .btn, .icon, .pic, .pic-shade, .num, .win { position:absolute;}
+.link { left: 0px; top: 0px; z-index:9;}
+.txt { left: 0px; z-index:7;}
+.txt-wrap { z-index:6;}
+.icon { z-index:5;}
+.pic-shade { z-index:4;}
+.pic { z-index:3;}
+.btn { text-align: center;}
+
+body, .wrapper {
+    height: 530px;
+    width: 640px;
+    /*background: transparent;*/
+    overflow: hidden;
+    position: relative;
+}
+body {
+    /*background-color: #000;*/
+    color: #f1f1f1;
+}
+
+/* =S Header
+----------------------------------------------- */
+.headTime {
+    height: 24px;
+    text-align: right;
+    width: 155px;
+    position: absolute;
+    right: 20px;
+    top: 29px;
+}
+
+.nav {
+    height: 40px;
+    width: 620px;
+    position: absolute;
+    left: 10px;
+    top: 61px;
+}
+.nav .item {
+    height: 40px;
+    top: 0px;
+}
+.nav .item .link,
+.nav .item .link img {
+    height: 40px;
+}
+.nav .item .link {}
+.nav .item .link img {}
+.nav .item .txt {
+    font-size: 20px;
+    text-align: center;
+    top: 9px;
+}
+.nav .item {}
+.nav .item-f2,
+.nav .item-f2 .link,
+.nav .item-f2 .link img,
+.nav .item-f2 .txt,
+.nav .item-f2_select,
+.nav .item-f2_select .link,
+.nav .item-f2_select .link img,
+.nav .item-f2_select .txt {
+    width: 64px;
+}
+.nav .item-f3,
+.nav .item-f3 .link,
+.nav .item-f3 .link img,
+.nav .item-f3 .txt {
+    width: 80px;
+}
+.nav .item-f4,
+.nav .item-f4 .link,
+.nav .item-f4 .link img,
+.nav .item-f4 .txt {
+    width: 102px;
+}
+.nav .item-f2_select .link img {
+   /* background: url("../images/nav-item-f2_select.gif") center bottom no-repeat;*/
+}
+.nav .item-f3_select .link img {
+   /* background: url("../images/nav-item-f3_select.gif") center bottom no-repeat;*/
+}
+.nav .item-f4_select .link img {
+   /*  background: url("../images/nav-item-f4_select.gif") center bottom no-repeat;*/
+}
+/* =E Header */
+
+/* =S Button
+----------------------------------------------- */
+.btn-prev,
+.btn-prev img {
+    height: 32px;
+    width: 82px;
+}
+.btn-prev img {
+    background: url("../images/page-prev.png") no-repeat;
+}
+.btn-prev:hover img,
+.btn-prev_focus img {
+    background: url("../images/page-prev_focus.png") no-repeat;
+}
+
+.btn-next,
+.btn-next img {
+    height: 32px;
+    width: 82px;
+}
+.btn-next img {
+    background: url("../images/page-next.png") no-repeat;
+}
+.btn-next:hover img,
+.btn-next_focus img {
+    background: url("../images/page-next_focus.png") no-repeat;
+}
+
+.btn-back,
+.btn-back img {
+    height: 32px;
+    width: 82px;
+}
+.btn-back img {
+    background: url("../images/page-back.png") no-repeat;
+}
+.btn-back:hover img,
+.btn-back_focus img {
+    background: url("../images/page-back_focus.png") no-repeat;
+}
+
+.paging-num {
+    color: #a3a4a7;
+    font-size: 18px;
+    height: 30px;
+    width: 108px;
+    text-align: right;
+    position: absolute;
+}
+.paging-num .current {
+    color: #f1f1f1;
+}
+/* =E Button */
+
+/* =S Gallary
+ ---------------------------------------------- */
+.gallaryBox {}
+.gallaryBox .item {
+    background: url("../images/gallary-cell-a.png") no-repeat;
+    height: 112px;
+    width: 112px;
+}
+.gallaryBox .item0{
+    height: 112px;
+    width: 112px;
+}
+.gallaryBox .item .link,
+.gallaryBox .item .link img,
+.gallaryBox .item .pic,
+.gallaryBox .item .pic img {
+    height: 100px;
+    width: 100px;
+}
+.gallaryBox .item .link,
+.gallaryBox .item .link img {
+    height: 106px;
+    width: 106px;
+}
+.gallaryBox .item .link {
+    left: 3px;
+    top: 2px;
+}
+.gallaryBox .item .link img {
+    background: url("../images/gallary-cell-a-pic-shade.png") no-repeat;
+}
+
+.gallaryBox .item .pic,
+.gallaryBox .item .pic img {
+    height: 100px;
+    width: 100px;
+}
+.gallaryBox .item .pic {
+    left: 6px;
+    top: 5px;
+}
+.gallaryBox .item .txt-wrap,
+.gallaryBox .item .txt-wrap .txt {
+    width: 100px;
+}
+.gallaryBox .item .txt-wrap {
+    background: url("../images/gallary-cell-a-txt-wrap.png") no-repeat;
+    height: 30px;
+    left: 6px;
+    top: 75px;
+}
+.gallaryBox .item .txt-wrap0 {
+    height: 30px;
+    left: 6px;
+    top: 75px;
+}
+.gallaryBox .item .txt-wrap .txt {
+    font-size: 20px;
+    height: 24px;
+    text-align: center;
+    top: 5px;
+}
+.gallaryBox .item:hover,
+.gallaryBox .item_focus {
+    background: url("../images/gallary-cell-a_focus.png") no-repeat;
+}
+/* =E Gallary */
+
+/* =S News List
+ ---------------------------------------------- */
+.newsList {
+    position: absolute;
+    left: 22px;
+    top: 149px;
+}
+.newsList .item,
+.newsList .item .link,
+.newsList .item .link img {
+    height: 36px;
+    width: 395px;
+}
+.newsList .item {
+    background: url("../images/j-newslist-a-item.png") left bottom no-repeat;
+    left: 0px;
+}
+.newsList .item .link {}
+.newsList .item .link img {}
+.newsList .item .txt {
+    left: 9px;
+    top: 8px;
+}
+.newsList .item .txt .sp {
+    color: #0396ff;
+}
+.newsList .item .txt .ft {
+    color: #ffae00;
+}
+.newsList .item .txt .zt {
+    color: #5d9307;
+}
+.newsList .item:hover,
+.newsList .item_focus {
+    background: url("../images/j-newslist-a-item_focus.png") left bottom no-repeat;
+}
+.newsList-b .item,
+.newsList-b .item .link,
+.newsList-b .item .link img {
+    width: 415px;
+}
+.newsList-b .item:hover,
+.newsList-b .item_focus {
+    background: url("../images/j-newslist-a-item_focus.png") left bottom no-repeat;
+    width: 415px;
+}
+
+.picList {
+    width: 186px;
+    position: absolute;
+}
+.picList .item,
+.picList .item .link,
+.picList .item .link img {
+    height: 116px;
+    width: 186px;
+}
+.picList .item {
+    background: #120f27;
+    left: 0px;
+}
+.picList .item .pic,
+.picList .item .pic img {
+    height: 110px;
+    width: 180px;
+}
+.picList .item .pic {
+    left: 3px;
+    top: 3px;
+}
+.picList .item .link {
+    left: 0px;
+    top: 0px;
+}
+.picList .item .link img {
+   /* background: url("../images/piclist-item-shade-50.png") repeat;*/
+}
+.picList .item:hover,
+.picList .item_focus {
+    background: #f5bb0b;
+}
+.picList .item:hover .link img,
+.picList .item_focus .link img {
+    background: none;
+}
+
+.picList-b {
+    width: 166px;
+    position: absolute;
+}
+.picList-b .item,
+.picList-b .item .link,
+.picList-b .item .link img {
+    height: 104px;
+    width: 166px;
+}
+.picList-b .item {
+    background: #120f27;
+    left: 0px;
+}
+.picList-b .item .pic,
+.picList-b .item .pic img {
+    height: 98px;
+    width: 160px;
+}
+.picList-b .item .pic {
+    left: 3px;
+    top: 3px;
+}
+.picList-b .item .link {
+    left: 0px;
+    top: 0px;
+}
+.picList-b .item .link img {
+    /*background: url("../images/piclist-b-item-shade-50.png") repeat;*/
+}
+.picList-b .item:hover,
+.picList-b .item_focus {
+    background: #f5bb0b;
+}
+.picList-b .item:hover .link img,
+.picList-b .item_focus .link img {
+    background: none;
+}
+
+.showPicSideBar {
+    background: url("../images/showpic-172x172-wrap.png") no-repeat;
+    height: 172px;
+    width: 172px;
+    position: absolute;
+    left: 20px;
+    top: 111px;
+}
+.showPicSideBar .pic,
+.showPicSideBar .pic img {
+    height: 160px;
+    width: 160px;
+}
+.showPicSideBar .pic {
+    left: 6px;
+    top: 5px;
+}
+.showPicSideBar .pic-shade,
+.showPicSideBar .pic-shade img {
+    height: 166px;
+    width: 166px;
+}
+.showPicSideBar .pic-shade {
+    left: 3px;
+    top: 2px;
+}
+.showPicSideBar .pic-shade img {
+    background: url("../images/showpic-172x172-shade.png") no-repeat;
+}
+/* =E News List */
+
+/* =S Top List
+ ---------------------------------------------- */
+.topList {}
+.topList .hd {
+    height: 35px;
+    width: 395px;
+    position: absolute;
+    left: 22px;
+    top: 113px;
+}
+.topList .bd .item {
+    background: url("../images/j-newslist-a-item.png") left bottom no-repeat;
+    height: 36px;
+    width: 395px;
+    left: 23px;
+}
+.topList .bd .item-last {
+    background: none;
+}
+.topList .bd .item .txtNum,
+.topList .bd .item .txtCountry,
+.topList .bd .item .txt1,
+.topList .bd .item .txt2,
+.topList .bd .item .txt3 {
+    height: 24px;
+    text-align: center;
+    position: absolute;
+    top:7px;
+}
+.topList .bd .item .txtNum {
+    width: 50px;
+    left: 0px;
+}
+.topList .bd .item .txtCountry {
+    width: 143px;
+    left: 39px;
+}
+.topList .bd .item .txt1 {
+    width: 66px;
+    left: 182px;
+}
+.topList .bd .item .txt2 {
+    width: 50px;
+    left: 266px;
+}
+.topList .bd .item .txt3 {
+    width: 50px;
+    left: 340px;
+}
+/* =E Top List */

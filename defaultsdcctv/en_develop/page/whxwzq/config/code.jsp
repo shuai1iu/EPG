@@ -1,0 +1,33 @@
+﻿<%
+	
+	String categoryCode_newsIndex = "10000100000000090000000000033290";
+	String recommendCode_newsIndex = "10000100000000090000000000031172";
+
+	String categoryCode_hubei = "10000100000000090000000000033290";
+	String categoryCode_minglan = "10000100000000090000000000033290";
+	String categoryCode_yszb = "10000100000000090000000000031172";
+	String categoryCode_cjhxw = "10000100000000090000000000031172";
+	
+	String categoryCode_dsj_index_topic = "10000100000000090000000000031172";
+	String categoryCode_dsj_index = "10000100000000090000000000031172";
+	
+	String categoryCode_dsj_ld_topic = "10000100000000090000000000031172";
+	String categoryCode_dsj_ld = "10000100000000090000000000031172";
+	
+	String categoryCode_dsj_zj_topic = "10000100000000090000000000031172";
+	String categoryCode_dsj_zj = "10000100000000090000000000031172";
+
+	String categoryCode_dsj_gt_topic = "10000100000000090000000000031172";
+	String categoryCode_dsj_gt = "10000100000000090000000000031172";
+
+	String categoryCode_dsj_rh_topic = "10000100000000090000000000031172";
+	String categoryCode_dsj_rh = "10000100000000090000000000031172";
+	
+	String categoryCode_dsj_om_topic = "10000100000000090000000000031172";
+	String categoryCode_dsj_om = "10000100000000090000000000031172";
+	
+	String categoryCode_dsj_lx = "10000100000000090000000000033290";
+	
+	String categoryCode_dsj_zt = "10000100000000090000000000033290";
+	
+%>

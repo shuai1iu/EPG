@@ -1,0 +1,123 @@
+/* =S Css Reset
+----------------------------------------------- */
+body, div, h1, h2, h3, h4, h5, h6, button, input, textarea, th, td { margin: 0; padding: 0; }
+body, div, button, input, select, textarea { font-size: 18px; font-family: Microsoft YaHei,SimHei,sans-serif; line-height: 100%; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+a { text-decoration: none; }
+fieldset, img { border: 0; }
+button, input, select, textarea { font-size: 100%; }
+
+/* =S Global
+----------------------------------------------- */
+.item, .link, .txt-wrap, .txt, .btn, .icon, .pic, .pic-shade, .num, .win { 
+	 left: 0; 
+	 position: absolute;
+	 top: 0;
+}
+.link { z-index: 9;}
+.txt { z-index: 7;}
+.txt-wrap { z-index: 6;}
+.icon { z-index: 5;}
+.pic-shade { z-index: 4;}
+.pic { z-index: 3;}
+.btn { text-align: center;}
+body {
+	color: #f1f1f1;
+    height: 530px;
+    width: 640px;
+    /*background: transparent;*/
+    overflow: hidden;
+    position: relative;
+}
+.wrapper,.pagebg {
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+.wrapper {
+    height: 530px;
+    width: 640px;
+	z-index: 2;
+}
+.pagebg {
+	z-index: 1;
+}
+.date {
+	color:#7cc9e6;
+	left: 340px;
+	position: absolute;
+	top: 23px;
+	text-align:right;
+	width:280px;
+}
+
+/*list----------------------------------------------------*/
+.list-rank {
+	left:14px;
+	position:absolute;
+	top:72px;
+}
+.list-rank .item {
+	background:url(../images/rank-list-bg.png) no-repeat;
+	height:48px;
+	width:315px;
+}
+.list-rank .item .txt {
+	font-size:21px;
+	height:28px;
+	line-height:28px;
+	left:8px;
+	top:10px;
+}
+.list-rank .item .txt01 {
+	text-align:center;
+	width:28px;
+}
+.list-rank .item .txt02 {
+	left:43px;
+	width:260px;
+}
+
+.list-rank .item_focus {
+	background:url(../images/rank-list-bg_focus.png) no-repeat;
+}
+.list-rank .item .pic,
+.list-rank .item .pic img {
+	height:160px;
+	width:136px;
+}
+.poster-rank {
+	left:342px;
+	position:absolute;
+	top:80px;
+}
+.poster-rank .pic,
+.poster-rank .pic img {
+	height:369px;
+	width:277px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

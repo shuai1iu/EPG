@@ -1,0 +1,19 @@
+function getAJAXData(url, successMethed) {
+    if (url != undefined && url != null && url != "") {
+        var temp = url.split("?"); url = temp[0];
+        if (temp.length > 1) { url += "?" + encodeURI(temp[1]); }
+    }
+    _in_ajax.open("POST", url, false);
+    _in_ajax.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=utf-8");
+    _in_ajax.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+    _in_ajax.send(null);
+	if (_in_ajax.readyState == 4){
+			if (_in_ajax.status == 200) {
+				 window.clearInterval(interval);
+				 successMethed(_in_ajax.responseText); 			
+			}else{
+				setTimeout("void()",200);
+				getAJAXData(url, successMethed);
+			}
+		}
+}

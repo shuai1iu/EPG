@@ -1,0 +1,16 @@
+/*global*/
+body{ background-color:#000; font-family:SimHei,sans-serif; font-size:24px; color:#fff;  margin:0px; padding:0px; width:1280px; height:720px; position:relative;line-height: 100%;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,p,th,td {margin:0; padding:0}pre,em,i,textarea,input,font{font-size:12px; font-weight:normal; font-style:normal}img{border:0; margin:0}button, input, select, textarea{ font-size:100%;}a{ color:#fff; text-decoration: none;}
+/*common*/
+.item, .link, .txt, .pic, .btn { 
+	left:0; 
+	position:absolute; 
+	top:0;
+}
+.link { z-index:4;}
+.txt { z-index:3;}
+.pic { z-index:2;}
+.menu {
+	left:430px; 
+	position:absolute; 
+	top:199px;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>童童影视（二级栏目）</title>
+<link rel="stylesheet" href="css/ha_index2.css" type="text/css" />
+<script src="JS/kxdhwill.js"></script>
+<script src="JS/all.js"></script>
+<script language="javascript"  type="text/javascript">
+var lu_id="00000100000000090000000000022137";
+function gotowhat()
+{
+        switch(row)
+	{
+      		case 1:
+		switch(col)
+		{
+			case 1:
+			pageup();
+			break;
+			case 2:
+			pagedown();
+			break;
+		}
+		break;
+		case 2:
+		switch(col)
+		{
+		        case 1:
+		        muchorone(benginum,lu_id,row,"ttys");
+		        break;
+		        case 2:
+		        muchorone(benginum+1,lu_id,row,"ttys");
+		        break;
+		        case 3:
+		        muchorone(benginum+2,lu_id,row,"ttys");
+		        break;
+		        case 4:
+		        muchorone(benginum+3,lu_id,row,"ttys");
+		        break;
+		}
+		break;
+		case 3:
+		switch(col)
+		{
+		        case 1:
+		        muchorone(benginum+4,lu_id,row,"ttys");
+		        break;
+		        case 2:
+		        muchorone(benginum+5,lu_id,row,"ttys");
+		        break;
+		        case 3:
+		        muchorone(benginum+6,lu_id,row,"ttys");
+		        break;
+		        case 4:
+		        muchorone(benginum+7,lu_id,row,"ttys");
+		        break;
+		}
+		break;
+		case 4:
+		switch(col)
+		{
+		        case 1:
+		        window.location.href="index.html?row=4&col=1";
+		        break;
+		        case 2:
+		        pageup();
+		        break;
+		        case 3:
+		        pagedown();
+		        break;
+		}
+		break;
+	}
+}
+function ttysinit()
+{
+	givechannelid();
+	buttonchange(getbuttonrowid(row));
+}
+</script>
+</head>
+
+<body onload="ttysinit()" >
+<div style="position:absolute; width:130px;height:40px; left:25px; top:19px; background: url(images/Tong_title.png)no-repeat;"></div>
+<div  class="btn_page_up" id="page_u" style="top:26px;">上页</div>
+<div  class="btn_page_down" id="page_d" style="top:28px;">下页</div>
+<div class="content" id="info" style="display:none">
+<div id="kxbg_1" class="filmbg_above" style="left:0px;">
+<div  id="kx_1" class="filmbg_btn"></div>
+<img id="img_1" class="image" /></div>
+<div  id="kxbg_2" class="filmbg_above"  style="left:153px;">
+<div  id="kx_2" class="filmbg_btn"></div>
+<img  id="img_2" class="image"/></div>
+<div id="kxbg_3" class="filmbg_above" style="left:306px;">
+<div  id="kx_3" class="filmbg_btn"></div>
+<img  id="img_3"class="image"/></div>
+<div  id="kxbg_4" class="filmbg_above" style="left:459px;">
+<div  id="kx_4" class="filmbg_btn"></div>
+<img  id="img_4" class="image"/></div>
+<div  id="kxbg_5"class="filmbg_below" style="left:0px;">
+<div id="kx_5" class="filmbg_btn"></div>
+<img  id="img_5" class="image"/></div>
+<div id="kxbg_6" class="filmbg_below" style="left:153px;">
+<div  id="kx_6" class="filmbg_btn"></div>
+<img  id="img_6" class="image"/></div>
+<div id="kxbg_7"  class="filmbg_below" style="left:306px;">
+<div  id="kx_7" class="filmbg_btn"></div>
+<img  id="img_7" class="image"/></div>
+<div  id="kxbg_8"class="filmbg_below"  style="left:459px;">
+<div  id="kx_8"  class="filmbg_btn"></div>
+<img  id="img_8"  class="image"/></div>
+</div>
+<div class="button" id="index" ></div>
+<div id="page_up" class="btn_page_up" >上页</div>
+<div id="page_down" class="btn_page_down" >下页</div>
+<div id="allpage" class="page_num"></div>
+</html>

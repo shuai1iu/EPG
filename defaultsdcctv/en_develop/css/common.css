@@ -1,0 +1,79 @@
+/*global*/
+body { background-color:#000; font-family:"Microsoft YaHei"; font-size:22px; color:#fff;  margin:0px; padding:0px; width:640px; height:530px; overflow:hidden; position:relative;/*line-height: 100%;*/}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,p,th,td {margin:0; padding:0}
+pre,em,i,textarea,input,font{font-size:12px; font-weight:normal; font-style:normal}
+img {border:0; margin:0}
+button, input, select, textarea { font-size:100%;}
+
+
+/*common*/
+body { background:url(../images/bg.jpg) no-repeat;}
+
+
+/*popup*/
+.popup { 
+	background:url(../images/pop-bg.png) no-repeat;
+	font-size:22px;
+	height:275px;
+	left:69px; 
+	position:absolute; 
+	top:133px;  
+	width:500px;  
+	z-index:9
+}
+.pop_title {
+	font-size:26px;
+	left:20px; 
+	position:absolute;
+	text-align:center;
+	top:52px; 
+	width:475px; 
+}
+.pop_title2 { 
+	left:20px; 
+	position:absolute;
+	text-align:center;
+	top:52px; 
+	width:475px; 
+}
+.pop_tip { 
+	left:60px;
+	line-height:36px; 
+	position:absolute;
+	text-align:center; 
+	top:35px;
+	width:380px; 
+}
+.pop_btns { 
+	left:30px;
+	position:absolute; 
+	top:115px;  
+	width:420px;
+}
+.pop_btns div { 
+	height:35px;
+	line-height:35px;
+	position:absolute;
+	top:0;
+	text-align:center; 
+}
+.pop_btns .btn01 { width:155px;}
+.pop_btns .btn02 { width:105px;}
+.pop_btns div.on { background:url(../images/btn_bg.png) no-repeat;}
+.pop_btns div.on2 { background:url(../images/btn2_bg.png) no-repeat;}
+
+	
+
+
+
+
+/*.title div {
+	color:#fee262;
+	font-size:24px;
+	height:36px;
+	left:10px;
+	position:absolute;
+	top:12px;
+	text-align:center;
+	width:261px;
+}*/
